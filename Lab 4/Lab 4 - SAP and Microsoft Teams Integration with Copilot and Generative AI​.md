@@ -47,9 +47,7 @@ Teams Trial Licence, Microsoft Power Automate trial license.</p>
 <br>
 <br>
 
-# Exercise 1: Create SAP Account
-
-## 
+# Exercise 1: Create SAP Account 
 
 ## Task 1: Create SAP Account
 
@@ -433,7 +431,7 @@ style="width:6.26806in;height:3.85972in" />
 - In the Input Parameter click on the edit input button and add the
   description as given below and the click on save button.
 
-**Description:** Product Category. One of the following categories can
+ > **Description:** Product Category. One of the following categories can
 be used. The name has to be exactly like this: Accessories, Notebooks,
 Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers,
 Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors, MP3
@@ -452,7 +450,7 @@ style="width:6.26806in;height:1.25903in" />
 
 - Enter the given below given description and click on the save button.
 
-**Description:** List of SAP products for a provided product category.
+ > **Description:** List of SAP products for a provided product category.
 Return the result as table including following information: ProductID,
 Category, Name, Description and Price.
 
@@ -530,7 +528,7 @@ style="width:4.85042in;height:3.40029in" />
 
 - Enter the message in the Message Node which is given below.
 
-Thank you for using our service. Please enter **Product ID** and
+ > Thank you for using our service. Please enter **Product ID** and
 **Update Price** in below given card.
 
   <img src="./media/image77.png"
@@ -550,7 +548,7 @@ style="width:6.26806in;height:2.85972in" />
 - Enter the below give code in the properties window and close the
   properties.
 
-""
+```
 
 {
 
@@ -608,7 +606,7 @@ style="width:6.26806in;height:2.85972in" />
 
 }
 
-""
+```
 
   <img src="./media/image80.png"
 style="width:6.26806in;height:3.56389in" />
@@ -716,7 +714,7 @@ style="width:6.26806in;height:2.07014in" />
 - Open teams app and enter the prompt **Give me information about
   Notebooks.**
 
-**Note:** If prompted Additional permissions are required to run this
+  > **Note:** If prompted Additional permissions are required to run this
 action. To proceed, please select 'Connect', and review any missing
 connections. Click on connect and apply the same steps as we perform
 before. After connection created back to teams and then type prompt
@@ -741,7 +739,7 @@ style="width:6.26806in;height:0.57083in" />
   <img src="./media/image101.png"
 style="width:4.10036in;height:2.14185in" />
 
-**Note:** If prompted Additional permissions are required to run this
+  > **Note:** If prompted Additional permissions are required to run this
 action. To proceed, please select 'Connect', and review any missing
 connections. Click on connect and apply the same steps as we perform
 before. After connection created back to teams and then type prompt
