@@ -7,8 +7,8 @@
 </colgroup>
 <thead>
 <tr>
-<th>Description </th>
-<th><p>In this lab, participants will start by creating an SAP account
+<td>Description </th>
+<td><p>In this lab, participants will start by creating an SAP account
 and setting up a Gateway Demo System to access SAP services. The next
 step involves configuring Microsoft Copilot Studio and creating a
 Copilot with generative AI capabilities tailored for SAP product
@@ -19,7 +19,6 @@ with SAP through Microsoft Teams. Finally, the lab will conclude with
 testing the Copilot within Teams by retrieving product information and
 updating product prices, followed by verification of the updates in the
 SAP system.</p>
-<p> </p></th>
 </tr>
 </thead>
 <tbody>
@@ -28,7 +27,7 @@ SAP system.</p>
 <td><p>To get the most out of this lab guide we recommend you have Work
 or school Email ID-Password, Microsoft copilot Trial License, Microsoft
 Teams Trial Licence, Microsoft Power Automate trial license.</p>
-<p> </p></td>
+</td>
 </tr>
 <tr>
 <td>Duration </td>
