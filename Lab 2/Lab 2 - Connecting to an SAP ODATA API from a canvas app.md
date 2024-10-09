@@ -1,11 +1,45 @@
 # Connecting to an SAP ODATA API and Updating SAP data from a canvas app
 
-| Description  | This lab provides hands-on experience with integrating SAP and Power Platform by guiding participants through key exercises such as setting up an SAP account, creating a custom OData connector, building a Power Apps canvas app, adding a Power Automate flow, and invoking the flow to update product information. Participants will learn how to access and work with SAP data through Power Apps and Power Automate, leveraging OData connections to automate and streamline business processes. |
-|----|----|
-| Prerequisites  | To get the most out of this lab guide we recommend you have School or Work Email ID, Microsoft 365 admin tenant Id, Power apps trial license, Power Automate trial license. |
-| Duration  | 1 hours  |
-| Version  | 1.0  |
-| Publication date   | October 2024  |
+<table>
+  <colgroup>
+    <col style="width: 21%" />
+    <col style="width: 78%" />
+  </colgroup>
+  <thead>
+    <tr>
+      <td style="text-align: left;">Description</th>
+      <td style="text-align: left;">
+        This lab provides hands-on experience with integrating SAP and Power Platform by guiding participants 
+        through key exercises such as setting up an SAP account, creating a custom OData connector, building a 
+        Power Apps canvas app, adding a Power Automate flow, and invoking the flow to update product information. 
+        Participants will learn how to access and work with SAP data through Power Apps and Power Automate, 
+        leveraging OData connections to automate and streamline business processes.
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">Prerequisites</td>
+      <td style="text-align: left;">
+        To get the most out of this lab guide we recommend you have a School or Work Email ID, 
+        Microsoft 365 admin tenant ID, Power Apps trial license, and Power Automate trial license.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Duration</td>
+      <td style="text-align: left;">1 hour</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Version</td>
+      <td style="text-align: left;">1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Publication date</td>
+      <td style="text-align: left;">October 2024</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 <br>
