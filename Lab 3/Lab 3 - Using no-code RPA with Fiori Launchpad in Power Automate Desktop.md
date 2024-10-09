@@ -7,8 +7,8 @@
 </colgroup>
 <thead>
 <tr>
-<th>Description </th>
-<th><p>This lab focuses on automating tasks within SAP Fiori using Power
+<td>Description </th>
+<td><p>This lab focuses on automating tasks within SAP Fiori using Power
 Automate Desktop. Participants will begin by installing Power Automate
 Desktop and creating a flow named SAP Fiori Automation. The flow will
 involve declaring input variables for the SAP User ID and Password, as
