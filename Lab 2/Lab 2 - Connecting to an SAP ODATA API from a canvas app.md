@@ -401,17 +401,17 @@ alt="A screenshot of a computer Description automatically generated" />
   <img src="./media/image50.png" style="width:6.26806in;height:2.12153in"
 alt="A screenshot of a computer Description automatically generated" />
 
-  Similarly, add the following as in the screenshot below.
+- Similarly, add the following as in the screenshot below.
 
-| **Property** | **Data Type** |
-|--------------|---------------|
-| Name         | Text          |
-| Description  | Text          |
-| E-Tag        | Text          |
-| Price        | Number        |
-
-  <img src="./media/image51.png" style="width:4.57215in;height:3.63959in"
-alt="A screenshot of a computer Description automatically generated" />
+  | **Property** | **Data Type** |
+  |--------------|---------------|
+  | Name         | Text          |
+  | Description  | Text          |
+  | E-Tag        | Text          |
+  | Price        | Number        |
+  
+    <img src="./media/image51.png" style="width:4.57215in;height:3.63959in"
+  alt="A screenshot of a computer Description automatically generated" />
 
 - Rename the flow as **UpdateProduct** and then click on **+ New step**.
 
@@ -467,15 +467,15 @@ alt="A screenshot of a computer Description automatically generated" />
 
 - Select the values for the Properties as below.
 
-| **Property** | **Value**                   |
-|--------------|-----------------------------|
-| E-Tag        | PowerApps(V2) – E-Tag       |
-| Name         | PowerApps(V2) - Name        |
-| Description  | PowerApps(V2) - Description |
-| Price        | PowerApps(V2) - Price       |
-|              |                             |
-
-  <img src="./media/image61.png" style="width:6.26806in;height:6.67361in" alt="A screenshot of a computer Description automatically generated" />
+  | **Property** | **Value**                   |
+  |--------------|-----------------------------|
+  | E-Tag        | PowerApps(V2) – E-Tag       |
+  | Name         | PowerApps(V2) - Name        |
+  | Description  | PowerApps(V2) - Description |
+  | Price        | PowerApps(V2) - Price       |
+  |              |                             |
+  
+    <img src="./media/image61.png" style="width:6.26806in;height:6.67361in" alt="A screenshot of a computer Description automatically generated" />
 
 - From the top bar click on **Save** button.
 
