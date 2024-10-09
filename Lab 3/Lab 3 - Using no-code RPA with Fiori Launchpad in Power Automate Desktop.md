@@ -133,16 +133,16 @@ style="width:6.26806in;height:3.75139in" />
 - On the New input variable pane, provide the following details and then
   click on **Save**.
 
-| **Property**      | **Value**                         |
-|-------------------|-----------------------------------|
-| Variable name     | SAPUserID                         |
-| Data type         | Text                              |
-| Default value     | **Enter Your SAP ES5 User ID**    |
-| External name     | SAP UserID                        |
-| Description       | SAP User ID to login to SAP Fiori |
-| Mark as Sensitive | Enable                            |
+    | **Property**      | **Value**                         |
+    |-------------------|-----------------------------------|
+    | Variable name     | SAPUserID                         |
+    | Data type         | Text                              |
+    | Default value     | **Enter Your SAP ES5 User ID**    |
+    | External name     | SAP UserID                        |
+    | Description       | SAP User ID to login to SAP Fiori |
+    | Mark as Sensitive | Enable                            |
 
-  <img src="./media/image14.png" style="width:6.26806in;height:4.95in" alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image14.png" style="width:6.26806in;height:4.95in" alt="A screenshot of a computer Description automatically generated" />
 
 - Similarly, to add an input variable, click on **+sign** next to
   Input/output variables.
@@ -213,26 +213,25 @@ style="width:6.26806in;height:3.48819in" />
   double click on the action **Set variable** to add the action to the
   flow. Add the values as per the below table and click on **Save**.
 
-| **Property** | **Value** |
-|----|----|
-| Variable | Click on NewVar, select the **x** symbol and select the output variable – **Processingresults** |
-| Value | **\# Exception \# - %LastError%** |
+    | **Property** | **Value** |
+    |----|----|
+    | Variable | Click on NewVar, select the **x** symbol and select the output variable – **Processingresults** |
+    | Value | **\# Exception \# - %LastError%** |
 
-  <img src="./media/image23.png"
-style="width:6.26806in;height:4.02083in" />
+    <img src="./media/image23.png"
+  style="width:6.26806in;height:4.02083in" />
 
 - Now, add an action **Stop flow,** which will stop the flow if there is
   an error.
 
-Fill in the details as below and click on **Save**.
-
-| **Property**  | **Value**                     |
-|---------------|-------------------------------|
-| End flow      | Select **With error message** |
-| Error message | **%LastError%**               |
-
-  <img src="./media/image24.png"
-style="width:6.26806in;height:4.44931in" />
+- Fill in the details as below and click on **Save**.
+  
+    | **Property**  | **Value**                     |
+    |---------------|-------------------------------|
+    | End flow      | Select **With error message** |
+    | Error message | **%LastError%**               |
+  
+    <img src="./media/image24.png" style="width:6.26806in;height:4.44931in" />
 
 - The **ExceptionHandler** subflow should now look as in the image
   below.
@@ -262,14 +261,14 @@ alt="A screenshot of a computer Description automatically generated" />
 - Drag and drop the **Launch new Microsoft Edge**/**Launch new Chrome**
   action on to the SAP_Logon subflow screen.
 
-Under Select parameters, provide the following details and then click on
+- Under Select parameters, provide the following details and then click on
 **Save**.
 
-| **Property** | **Value** |
-|----|----|
-| Launch mode | **Launch a new instance** |
-| Initial URL | <https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html> |
-| Window state | **Normal** |
+  | **Property** | **Value** |
+  |----|----|
+  | Launch mode | **Launch a new instance** |
+  | Initial URL | <https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html> |
+  | Window state | **Normal** |
 
   <img src="./media/image29.png" style="width:6.26806in;height:3.59167in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -345,7 +344,7 @@ style="width:6.26806in;height:4.34792in" />
   <img src="./media/image39.png" style="width:6.26806in;height:3.19832in"
 alt="A screenshot of a web page Description automatically generated" />
 
-**Note:** If there is an extra Launch new chrome action is added, right
+  > **Note:** If there is an extra Launch new chrome action is added, right
 click on it, and select Delete. There should be only one launch action.
 
 - Close the chrome browser and right click on the **Launch new chrome**
@@ -442,7 +441,7 @@ style="width:5.51714in;height:3.00859in" />
   <img src="./media/image51.png" style="width:6.26806in;height:2.98889in"
 alt="A screenshot of a computer Description automatically generated" />
 
-**Note:** For each of the element, we will first capture the UI element
+  > **Note:** For each of the element, we will first capture the UI element
 and then click on the same from the browser to get the flow of the
 execution.
 
@@ -500,8 +499,6 @@ alt="A screenshot of a computer Description automatically generated" />
   <img src="./media/image59.png" style="width:4.24203in;height:5.35046in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## 
-
 ## Task 3: Add actions to the flow
 
 - Now, we will add the elements that were captured in the Task 1 above,
@@ -533,7 +530,7 @@ alt="A screenshot of a computer Description automatically generated" />
   <img src="./media/image63.png" style="width:6.26806in;height:3.62153in"
 alt="A screenshot of a computer Description automatically generated" />
 
-**Note:** Instead of hard coding this value, we can also add an input
+  > **Note:** Instead of hard coding this value, we can also add an input
 variable and then use the variable name here.
 
 - Add an action, **Click link on web page** and select **Search icon**
