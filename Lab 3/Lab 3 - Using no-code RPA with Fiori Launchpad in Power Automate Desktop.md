@@ -20,7 +20,7 @@ populating text fields, and extract data into an Excel spreadsheet.
 Finally, the main flow will be configured to execute the logon, product
 search, and logoff sub flows in sequence, culminating in testing the
 entire automation process.</p>
-<p> </p></th>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -29,7 +29,7 @@ entire automation process.</p>
 <td><p>To get the most out of this lab guide we recommend you have
 Microsoft 365 Tenant credentials, SAP Gateway Demo Server - ES5 User ID
 and Password, Power Automate desktop trial license.</p>
-<p> </p></td>
+</td>
 </tr>
 <tr>
 <td>Duration </td>
