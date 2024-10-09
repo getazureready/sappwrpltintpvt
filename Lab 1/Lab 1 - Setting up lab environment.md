@@ -126,31 +126,20 @@ alt="A screenshot of a computer Description automatically generated" />
   <img src="./media/image10.png" style="width:6.26806in;height:3.90682in"
 alt="A screenshot of a computer screen Description automatically generated" />
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr>
-<th><p><strong>Note:</strong> If pop-up asks you to switch to the new
-Teams, select Switch now and follow the below instructions a and b.</p>
-<ul>
-<li><p>window, select <strong>Get Started.</strong></p></li>
-</ul>
-<p><img src="./media/image11.png"
-style="width:4.74025in;height:3.92138in"
-alt="A screenshot of a phone Description automatically generated" /></p>
-<ul>
-<li><p>Close the window which is asking for scanning QR code.</p></li>
-</ul>
-<p><img src="./media/image12.png"
-style="width:5.53545in;height:3.3496in"
-alt="A qr code on a white background Description automatically generated" /></p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+  > Note: If a pop-up asks you to switch to the new Teams, select "Switch now" and follow the steps below:
+
+- In the window, select Get Started.
+
+  <img src="./media/image11.png"
+  style="width:4.74025in;height:3.92138in"
+  alt="A screenshot of a phone Description automatically generated" />
+
+- Close the window asking to scan the QR code.
+
+  <img src="./media/image12.png"
+  style="width:5.53545in;height:3.3496in"
+  alt="A qr code on a white background Description automatically generated" />
+
 
 - In the Sidebar on the left, click **Teams**, click on **+ icon** to
   join or create a team.
