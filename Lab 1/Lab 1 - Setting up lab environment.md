@@ -1,47 +1,53 @@
 # Setting up Lab Environment
 
 <table>
-<colgroup>
-<col style="width: 21%" />
-<col style="width: 78%" />
-</colgroup>
-<thead>
-<tr>
-<th>Objective </th>
-<th><p>In this lab, participants will take on the role of an IT
-Administrator at <strong>Contoso</strong>, tasked with enabling
-collaboration and app development for a project team. You'll assign a
-Power Apps trial license to a new developer, setting up a development
-environment, and create a dedicated Microsoft Teams space, complete with
-channels, for seamless project communication and collaboration. This
-hands-on lab will help you understand how to provision access to Power
-Apps and manage team collaboration in Teams effectively.</p>
-<p> </p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Prerequisites </td>
-<td><p>To complete this lab, you need a Microsoft 365 admin tenant, a
-Power Apps trial license, a Microsoft Teams trial license, and access to
-the Power Platform admin center. Ensure all necessary licenses and
-access permissions are in place before starting.</p>
-<p> </p></td>
-</tr>
-<tr>
-<td>Duration </td>
-<td>30 mins </td>
-</tr>
-<tr>
-<td>Version </td>
-<td>1.0 </td>
-</tr>
-<tr>
-<td>Publication date  </td>
-<td>October 2024 </td>
-</tr>
-</tbody>
+  <colgroup>
+    <col style="width: 21%" />
+    <col style="width: 78%" />
+  </colgroup>
+  <thead>
+    <tr>
+      <td style="text-align: left;">Objective</th>
+      <td style="text-align: left;">
+        <p>
+          In this lab, participants will take on the role of an IT Administrator at 
+          <strong>Contoso</strong>, tasked with enabling collaboration and app development for 
+          a project team. You'll assign a Power Apps trial license to a new developer, 
+          setting up a development environment, and create a dedicated Microsoft Teams 
+          space, complete with channels, for seamless project communication and collaboration. 
+          This hands-on lab will help you understand how to provision access to Power Apps 
+          and manage team collaboration in Teams effectively.
+        </p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;">Prerequisites</td>
+      <td style="text-align: left;">
+        <p>
+          To complete this lab, you need a Microsoft 365 admin tenant, a Power Apps trial 
+          license, a Microsoft Teams trial license, and access to the Power Platform admin 
+          center. Ensure all necessary licenses and access permissions are in place before 
+          starting.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Duration</td>
+      <td style="text-align: left;">30 mins</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Version</td>
+      <td style="text-align: left;">1.0</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;">Publication date</td>
+      <td style="text-align: left;">October 2024</td>
+    </tr>
+  </tbody>
 </table>
+
 
 <br>
 <br>
