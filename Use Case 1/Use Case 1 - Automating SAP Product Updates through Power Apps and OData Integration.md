@@ -1,5 +1,5 @@
 <img src="./media/image1.png"
-style="width:6.26806in;height:2.90833in" />
+style="width:10in;height:4in" />
 
 # Automating SAP Product Updates through Power Apps and OData Integration
 
