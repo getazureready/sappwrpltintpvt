@@ -15,7 +15,7 @@ style="width:10in;height:4in" />
   </tr>
   <tr>
     <td>Duration</td>
-    <td>1.5 hours</td>
+    <td>1 hours</td>
   </tr>
   <tr>
     <td>Version</td>
