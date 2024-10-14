@@ -1,5 +1,5 @@
 <img src="./media/image1.png"
-style="width:6.26806in;height:1.86181in" />
+style="width:10in;height:4in" />
 
 
 # Enhancing Operational Efficiency with SAP Fiori Automation for Product Management
