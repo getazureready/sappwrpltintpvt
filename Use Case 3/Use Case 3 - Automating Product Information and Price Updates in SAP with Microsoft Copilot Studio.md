@@ -1,8 +1,7 @@
 <img src="./media/image1.png"
 style="width:10in;height:4in" />
 
-# Automating Product Information and Price Updates in SAP with Microsoft
-Copilot Studio
+# Automating Product Information and Price Updates in SAP with Microsoft Copilot Studio
 
 <table>
   <tr>
