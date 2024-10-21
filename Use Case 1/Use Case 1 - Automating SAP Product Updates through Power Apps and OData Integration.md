@@ -115,7 +115,7 @@ For this use case, all participants will need the following:
 
 3.  Microsoft Power Automate Free Trial License
 
-4.  SAP OData API access credentials
+4.  SAP ES5 P User ID and Password
 
 
 <br>
