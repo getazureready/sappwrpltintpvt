@@ -30,9 +30,9 @@ style="width:10in;height:4in" />
 <br>
 <br>
 
-# Objective & Scenario
+## Objective & Scenario
 
-# Objective 
+## Objective 
 
 To automate Contoso Electronics' product data management and reporting
 processes using Power Automate Desktop (PAD). This will assist in
@@ -41,7 +41,7 @@ performing automated searches, and generating detailed product reports
 for internal use. The automation will streamline operational efficiency,
 reduce manual effort, and ensure accuracy in data reporting.
 
-# Solution Focus Area 
+## Solution Focus Area 
 
 Contoso Electronics, a leader in consumer electronics, maintains a vast
 inventory of products. The current manual product management process,
@@ -61,7 +61,7 @@ implement Power Automate Desktop to automate the product search and
 report generation process. The automation will reduce manual effort,
 increase accuracy, and improve overall productivity.
 
-# Persona and Scenario 
+## Persona and Scenario 
 
 1.  **Remy Morris** – Digital Solutions Architect
 
@@ -114,7 +114,7 @@ These personas will participate in the following sequential scenarios:
     her to compile all necessary data into a single Excel file, ensuring
     operational insights are gathered and reported accurately.
 
-# Pre-requisites 
+## Pre-requisites 
 
 For this use case, all participants will need the following:
 
@@ -129,9 +129,9 @@ For this use case, all participants will need the following:
 <br>
 <br>
 
-# Exercise 1: Create a flow and declare the variables
+## Exercise 1: Create a flow and declare the variables
 
-## Task 1: Install Power Automate Desktop
+### Task 1: Install Power Automate Desktop
 
 1.  Sign in with your Office 365 tenant credentials to Power Automate
     using <https://make.powerautomate.com/>. Click **My flows **from
@@ -202,7 +202,7 @@ style="width:6.26806in;height:3.95694in" />
     <img src="./media/image13.png"
 style="width:6.26806in;height:3.73681in" />
 
-## Task 3: Declare Input and Output variables
+### Task 3: Declare Input and Output variables
 
 1.  From the right-side pane, select second icon to open **Variables**
     pane, click on the **+** icon under **Input/output variables** and
@@ -218,7 +218,7 @@ style="width:6.26806in;height:3.75139in" />
     |-------------------|-----------------------------------|
     | Variable name     | SAPUserID                         |
     | Data type         | Text                              |
-    | Default value     | **Enter Your SAP ES5 User ID which created in Usecase 1**    |
+    | Default value     | **Enter Your SAP ES5 User ID which created in Use case 1**    |
     | External name     | SAP UserID                        |
     | Description       | SAP User ID to login to SAP Fiori |
     | Mark as Sensitive | Enable                            |
@@ -238,7 +238,7 @@ style="width:4.51742in;height:3.6856in" />
     |-------------------|--------------------------------|
     | Variable name     | SAPPassword                    |
     | Data type         | Text                           |
-    | Default value     | **Your SAP ES5 Password which created in Usecase 1**      |
+    | Default value     | **Your SAP ES5 Password which created in Use case 1**      |
     | External name     | SAP Password                   |
     | Description       | Password to login to SAP Fiori |
     | Mark as Sensitive | Enable                         |
@@ -269,7 +269,7 @@ style="width:6.26806in;height:2.01597in" />
     <img src="./media/image20.png" style="width:6.22554in;height:4.55039in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Exercise 2: Add a sub flow for Exception Handling 
+## Exercise 2: Add a sub flow for Exception Handling 
 
 1.  We will add Exception handling in order to handle scenarios like
     some window is not available or any UI click event failure and so
@@ -300,7 +300,7 @@ style="width:6.26806in;height:3.48819in" />
     | **Property** | **Value** |
     |----|----|
     | Variable | Click on NewVar, select the **x** symbol and select the output variable – **Processingresults** |
-    | Value | **\# Exception \# - %LastError%** |
+    | Value | **\## Exception \## - %LastError%** |
 
     <img src="./media/image24.png"
 style="width:6.26806in;height:4.02083in" />
@@ -325,9 +325,9 @@ style="width:6.26806in;height:4.44931in" />
     <img src="./media/image26.png" style="width:6.26806in;height:2.57847in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Exercise 3: Add a subflow to logon to SAP Fiori 
+## Exercise 3: Add a subflow to logon to SAP Fiori 
 
-## Task 1: Create Subflow and Actions to the Logon subflow
+### Task 1: Create Subflow and Actions to the Logon subflow
 
 1.  Create a **Subflow** by clicking on **SubFlows** -\> **New
     subflow.**
@@ -494,9 +494,9 @@ alt="A screenshot of a computer Description automatically generated" />
     flow by performing a right click on the first action and select
     **Run from here**.
 
-# Exercise 4: Add and configure subflow SearchProductBySupplier
+## Exercise 4: Add and configure subflow SearchProductBySupplier
 
-## Task 1: Add Sub Workflow
+### Task 1: Add Sub Workflow
 
 1.  From the Power Automate flow page, click on the **Subflows** -\> **+
     New subflow**.
@@ -510,7 +510,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image50.png" style="width:6.18387in;height:2.46688in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 2: Capture UI Elements for Search by supplier
+### Task 2: Capture UI Elements for Search by supplier
 
 1.  Click on the **UI element** and select **Add UI element**.
 
@@ -591,7 +591,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image60.png" style="width:4.24203in;height:5.35046in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 3: Add actions to the flow
+### Task 3: Add actions to the flow
 
 1.  Now, we will add the elements that were captured in the Task 1
     above, to the **SearchProductBySupplier** subflow.
@@ -695,9 +695,9 @@ alt="A screenshot of a computer Description automatically generated" />
     which will search for a specific supplier name and export all the
     products of the supplier into an Excel.
 
-# Exercise 5: Add subflow SAP_Logoff
+## Exercise 5: Add subflow SAP_Logoff
 
-## Task 1: Create Sub flow SAP_Logoff
+### Task 1: Create Sub flow SAP_Logoff
 
 1.  We will now create a new subflow named **SAP_Logoff** to log off
     from the **SAP Fiori**.
@@ -741,7 +741,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image80.png"
 style="width:4.25037in;height:2.10852in" />
 
-## Task 2: Rename UI Elements
+### Task 2: Rename UI Elements
 
 1.  Click on the added UI element one by one and change the name for
     each of them.
@@ -758,7 +758,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image82.png"
 style="width:4.52539in;height:6.04219in" />
 
-## Task 3: Add Actions to the subflow
+### Task 3: Add Actions to the subflow
 
 1.  From the **Actions** pane, drag and drop a **Click link on web
     page** action to the **SAP_Logoff** subflow pane. Select the UI
@@ -786,7 +786,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image86.png"
 style="width:6.26806in;height:2.94514in" />
 
-# Exercise 6: Configure the Main flow
+## Exercise 6: Configure the Main flow
 
 1.  The main flow does not have anything in it now.
 
@@ -838,7 +838,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image94.png" style="width:6.26806in;height:2.85694in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Exercise 7: Test the Flow
+## Exercise 7: Test the Flow
 
 1.  From the Main block, right click and select **Run from here**.
 
