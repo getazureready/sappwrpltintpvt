@@ -218,7 +218,7 @@ style="width:6.26806in;height:3.75139in" />
     |-------------------|-----------------------------------|
     | Variable name     | SAPUserID                         |
     | Data type         | Text                              |
-    | Default value     | **Enter Your SAP ES5 User ID**    |
+    | Default value     | **Enter Your SAP ES5 User ID which created in Usecase 1**    |
     | External name     | SAP UserID                        |
     | Description       | SAP User ID to login to SAP Fiori |
     | Mark as Sensitive | Enable                            |
@@ -238,7 +238,7 @@ style="width:4.51742in;height:3.6856in" />
     |-------------------|--------------------------------|
     | Variable name     | SAPPassword                    |
     | Data type         | Text                           |
-    | Default value     | **Your SAP ES5 Password**      |
+    | Default value     | **Your SAP ES5 Password which created in Usecase 1**      |
     | External name     | SAP Password                   |
     | Description       | Password to login to SAP Fiori |
     | Mark as Sensitive | Enable                         |
