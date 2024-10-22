@@ -1,5 +1,5 @@
 <img src="./media/image1.png"
-style="width:10in;height:4in" />
+style="width:6.18611in;height:2.39722in" />
 
 # Automating Product Information and Price Updates in SAP with Microsoft
 Copilot Studio
@@ -28,7 +28,7 @@ Copilot Studio
 </table>
 
 
-# Objective 
+## Objective 
 
 Develop a lab use case for Contoso Electronics to streamline product
 information retrieval and price updates in SAP using Microsoft Copilot
@@ -37,7 +37,7 @@ Contoso's operations team to efficiently query product data, update
 prices, and test these updates in SAP, enabling faster decision-making
 and operational improvements.
 
-# Solution Focus Area 
+## Solution Focus Area 
 
 Contoso Electronics is continuously updating its product catalog and
 prices based on market trends and promotions. However, the manual
@@ -62,7 +62,7 @@ To address these challenges, Contoso will use Microsoft Copilot Studio
 integrated with Power Automate to automate SAP queries and updates,
 ensuring accuracy and efficiency in operations.
 
-# Persona and Scenario 
+## Persona and Scenario 
 
 1.  **Remy Morris** - Digital Solutions Architect
 
@@ -110,7 +110,7 @@ These personas will participate in the following sequential scenarios:
     promotion. She verifies the changes in real-time within SAP,
     ensuring that prices are updated accurately and efficiently.
 
-## Use Case Scenario for Participants 
+### Use Case Scenario for Participants 
 
 - **Thomas Green** logs into Copilot Studio and queries SAP for product
   details using a pre-configured Power Automate flow. The query returns
@@ -122,7 +122,7 @@ These personas will participate in the following sequential scenarios:
   triggers the update in SAP, and she verifies the successful price
   changes within the system.
 
-# Pre-requisites 
+## Pre-requisites 
 
 For this use case, all participants will need the following:
 
@@ -140,9 +140,9 @@ For this use case, all participants will need the following:
 <br>
 <br>
 
-# Exercise 1: Create and Configure Copilot
+## Exercise 1: Create and Configure Copilot
 
-## Task 1: Login in Copilot studio
+### Task 1: Login in Copilot studio
 
 1.  Navigate to
     <https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio>
@@ -168,7 +168,7 @@ style="width:6.26806in;height:3.10833in" />
     <img src="./media/image23.png"
 style="width:6.26806in;height:3.80972in" />
 
-## Task 2: Create a Copilot with Gen AI Capabilities
+### Task 2: Create a Copilot with Gen AI Capabilities
 
 1.  Opne Copilot studio and from top environment sections select **Dev
     One** environment.
@@ -212,9 +212,9 @@ style="width:6.26806in;height:2.80069in" />
     <img src="./media/image28.png"
 style="width:6.26806in;height:2.62222in" />
 
-# Exercise 2: Create Power Automate Flow for SAP Integration
+## Exercise 2: Create Power Automate Flow for SAP Integration
 
-## Task 1: Create Power Automate Flow for Product Information
+### Task 1: Create Power Automate Flow for Product Information
 
 1.  Then go back to overview section of copilot and select **Actions**
     from the top bar. After click on actions select **Add an action**
@@ -318,7 +318,7 @@ style="width:6.26806in;height:2.66111in" />
     <img src="./media/image44.png"
 style="width:6.26806in;height:4.19931in" />
 
-## Task 2: Create Power Automate Flow for Update Product
+### Task 2: Create Power Automate Flow for Update Product
 
 1.  On the **Choose an action** window scroll down and click on the
     **Create a new flow.**
@@ -398,9 +398,9 @@ style="width:6.26806in;height:2.29306in" />
     <img src="./media/image58.png"
 style="width:6.26806in;height:2.56389in" />
 
-# Exercise 3: Integrate Power Automate Flow with Copilot
+## Exercise 3: Integrate Power Automate Flow with Copilot
 
-## Task 1: Integrate SAP Product Category Flow
+### Task 1: Integrate SAP Product Category Flow
 
 1.  Go back to copilot studio window and click on the **Refresh**
     button.
@@ -495,7 +495,7 @@ style="width:6.26806in;height:4.30069in" />
     <img src="./media/image73.png"
 style="width:6.26806in;height:1.98681in" />
 
-## Task 2: Create topic Product Update
+### Task 2: Create topic Product Update
 
 1.  Go to topic for the top bar and click on the **Add new topic** and
     then click on **From** **blank**.
@@ -674,7 +674,7 @@ style="width:6.26806in;height:2.71458in" />
     <img src="./media/image93.png"
 style="width:5.0171in;height:2.01684in" />
 
-# Exercise 4: Integrate Copilot with SAP
+## Exercise 4: Integrate Copilot with SAP
 
 1.  Go to Channels from the top bar which is placed next to Analytics
     and then click on **Microsoft Teams**.
@@ -704,7 +704,7 @@ style="width:6.26806in;height:3.56736in" />
     <img src="./media/image98.png"
 style="width:6.26806in;height:2.07014in" />
 
-# Exercise 5: Test Copilot in teams.
+## Exercise : Test Copilot in teams.
 
 1.  Open teams app and enter the prompt **Give me information about
     Notebooks.**
