@@ -30,7 +30,7 @@ style="width:10in;height:4in" />
 <br>
 <br>
 
-# Objective 
+## Objective 
 
 Streamline product management and updates for Contoso Electronics by
 integrating SAP with Power Apps, enabling users to access and update SAP
@@ -39,7 +39,7 @@ automates the flow of product information and reduces manual data entry
 by connecting to an SAP OData API and leveraging Power Automate for
 seamless updates.
 
-# Solution Focus Area: 
+## Solution Focus Area: 
 
 Contoso Electronics aims to simplify the way their product information,
 such as pricing, is updated in their SAP system. Currently, updates are
@@ -62,7 +62,7 @@ To address these challenges, Contoso Electronics will implement an
 integrated solution using Power Apps, Power Automate, and a custom OData
 connector to automate the retrieval and updating of product data in SAP.
 
-# Persona and Scenario: 
+## Persona and Scenario: 
 
 1.  Remy Morris – Digital Solutions Architect
 
@@ -105,7 +105,7 @@ build, test, and deploy an automated SAP product update solution:
     real-time. Grady verifies the successful update by checking the
     product in the SAP Fiori Launchpad.
 
-# Pre-requisites:
+## Pre-requisites:
 
 For this use case, all participants will need the following:
 
@@ -115,16 +115,16 @@ For this use case, all participants will need the following:
 
 3.  Microsoft Power Automate Free Trial License
 
-4.  SAP ES5 P User ID and Password
+4.  SAP OData API access credentials
 
 
 <br>
 <br>
 
 
-# Exercise 1: Create an SAP Account
+## Exercise 1: Create an SAP Account
 
-## Task 1: Create an SAP Account
+### Task 1: Create an SAP Account
 
 1.  Log into the SAP website at <https://www.sap.com> and click on the
     admin button.
@@ -173,7 +173,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
 8.  Close the Thank You screen.
 
-## Task 2: Create an account for Gateway Demo System
+### Task 2: Create an account for Gateway Demo System
 
 1.  Open <https://register.sapdevcenter.com/SUPSignForms/> from your
     browser. Enter your email id (the one that you provided during the
@@ -238,9 +238,9 @@ alt="A close-up of a white background Description automatically generated" />
 
     <img src="./media/image19.png" style="width:6.5in;height:2.94236in" />
 
-# Exercise 2: Create a Custom Connector (OData connection)
+## Exercise 2: Create a Custom Connector (OData connection)
 
-## Task 1: Sign Up for Microsoft Power Apps 
+### Task 1: Sign Up for Microsoft Power Apps 
 
  
 
@@ -284,7 +284,7 @@ style="width:6.26806in;height:3.37431in" />
     <img src="./media/image23.png" style="width:6.26806in;height:0.88958in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 2: Create Power Apps Custom OData Connector
+### Task 2: Create Power Apps Custom OData Connector
 
 1.  Select **Dev One** environment.
 
@@ -361,9 +361,9 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image34.png" style="width:6.26806in;height:3.77847in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Exercise 3: Create the Canvas App and Power Automate Flow
+## Exercise 3: Create the Canvas App and Power Automate Flow
 
-## Task 1: Create Canvas Power App
+### Task 1: Create Canvas Power App
 
 1.  From the Power Apps home page, select **Apps** from the left pane
     and select **Import apps.**
@@ -454,7 +454,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image48.png" style="width:6.26806in;height:3.66181in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 2: Add a Power Automate flow
+### Task 2: Add a Power Automate flow
 
 1.  Select the **Power Automate** button from the left pane and then
     select **Create new flow**.
@@ -567,7 +567,7 @@ style="width:6.26806in;height:3.90278in" />
     <img src="./media/image65.png" style="width:6.26806in;height:1.83889in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 3: Invoke the flow
+### Task 3: Invoke the flow
 
 1.  Back in the Power Apps screen, you will see that the flow is now
     added to the app.
@@ -592,9 +592,9 @@ style="width:6.26806in;height:2.63472in" />
     <img src="./media/image68.png" style="width:6.26806in;height:1.59444in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Exercise 4: Test and check the App and Flow
+## Exercise 4: Test and check the App and Flow
 
-## Task 1: App Testing
+### Task 1: App Testing
 
 1.  Click on **Play**.
 
@@ -609,7 +609,7 @@ the right-side pane of the app as **349.99** from 449.99. Click on the
     <img src="./media/image70.png"
 style="width:6.26806in;height:3.51597in" />
 
-## Task 2: Check the flow and updates
+### Task 2: Check the flow and updates
 
 1.  Go to the Power Automate page at <https://make.powerautomate.com/>
 
