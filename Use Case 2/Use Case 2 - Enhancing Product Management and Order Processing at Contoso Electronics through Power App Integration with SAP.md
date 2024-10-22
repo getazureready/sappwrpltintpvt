@@ -1,5 +1,5 @@
 <img src="./media/image1.png"
-style="width:6.18889in;height:2.39444in" />
+style="width:10in;height:4in" />
 
 # Enhancing Product Management and Order Processing at Contoso Electronics through Power App Integration with SAP
 
