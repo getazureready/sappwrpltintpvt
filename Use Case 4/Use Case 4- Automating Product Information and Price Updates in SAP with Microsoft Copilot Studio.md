@@ -1,5 +1,5 @@
 <img src="./media/image1.png"
-style="width:10in;height:4in" />
+style="width:6.18611in;height:2.39722in" />
 
 # Automating Product Information and Price Updates in SAP with Microsoft
 Copilot Studio
@@ -140,127 +140,7 @@ For this use case, all participants will need the following:
 <br>
 <br>
 
-# Exercise 1: Create SAP Account
-
-## 
-
-## Task 1: Create SAP Account
-
-1.  Log into the SAP website at <https://www.sap.com> and click the
-    **admin** button.
-
-    <img src="./media/image2.png"
-style="width:6.26806in;height:2.82847in" />
-
-2.  Click on **Create your SAP account.**
-
-    <img src="./media/image3.png" style="width:6.16667in;height:3.425in"
-alt="A screenshot of a computer Description automatically generated" />
-
-3.  Fill in your details, select the checkbox for accepting the terms
-    and conditions and click on **Submit**.
-
-    <img src="./media/image4.png" style="width:4.95in;height:3.50833in"
-alt="A screenshot of a computer screen Description automatically generated" />
-
-4.  You will get the **Check your email and finalize your account**
-    screen.
-
-    <img src="./media/image5.png" style="width:6.26806in;height:3.12153in"
-alt="A screenshot of a computer Description automatically generated" />
-
-5.  Open the email from the sender **SAP Universal ID - Notification**
-    in your registered mailbox and click on **Click to activate your
-    account.**
-
-    <img src="./media/image6.png" style="width:6.26667in;height:4.04167in"
-alt="A screenshot of a computer Description automatically generated" />
-
-6.  On the next screen, enter the password, select the check box to
-    acknowledge the SAP Universal ID Terms of Use and then click on
-    **Submit**.
-
-    <img src="./media/image7.png" style="width:6.26667in;height:3.79167in" alt="A screenshot of a computer Description automatically generated" />
-
-    > **Note:** Make a note of this username and password for future use to access the SAP related pages.
-
-7.  You will land on the **Thank You** page.
-
-    <img src="./media/image8.png" style="width:6.26667in;height:2.81667in" alt="A screenshot of a computer Description automatically generated" />
-
-8.  Close the Thank You screen.
-
-## Task 2: Create an account for Gateway Demo System
-
-1.  Open <https://register.sapdevcenter.com/SUPSignForms/> from your
-    browser. Enter your email id (the one that you provided during the
-    SAP id creation) and click on **Continue**.
-
-    <img src="./media/image9.png" style="width:6.26667in;height:4.44167in"
-alt="A screenshot of a login box Description automatically generated" />
-
-    <img src="./media/image9.png" style="width:6.26667in;height:4.44167in"
-alt="A screenshot of a login box Description automatically generated" />
-
-2.  Provide the SAP login password and then click on **Sign In**.
-
-    <img src="./media/image10.png" style="width:6.26667in;height:4.34167in"
-alt="A screenshot of a login page Description automatically generated" />
-
-3.  Click on **Accept**.
-
-    <img src="./media/image11.png" style="width:3.84167in;height:5.34167in"
-alt="A screenshot of a computer Description automatically generated" />
-
-4.  You will be taken to the SAP Gateway Demo Server page with the login
-    details to the system.
-
-5.  Select the check box to accept the Terms and conditions and then
-    click on **Register**.
-
-    <img src="./media/image12.png" style="width:5.7in;height:5.05in"
-alt="A screenshot of a computer Description automatically generated" />
-
-6.  Click on **Show password** to view the password.
-
-    <img src="./media/image13.png"
-style="width:6.26806in;height:4.88611in" />
-
-7.  Check the mailbox and open the mail from <devcenter@sap.com>. Open
-    the Login to the **SAP Gateway WebGUI** link from the email.
-
-    <img src="./media/image14.png" style="width:6.26806in;height:3.45556in"
-alt="A screenshot of a computer Description automatically generated" />
-
-8.  Login using the login details from the email.
-
-    <img src="./media/image15.png" style="width:5.59167in;height:4.07576in"
-alt="A screenshot of a login box Description automatically generated" />
-
-9.  Change the password and click on **Change**.
-
-    <img src="./media/image16.png"
-style="width:6.26806in;height:5.72153in" />
-
-    > **Note:** Make a note of this **User ID** and **Password**. This will be the login credentials for your SAP Demo system.
-
-10. Click on **Continue**.
-
-    <img src="./media/image17.png" style="width:6.26806in;height:2.55556in"
-    alt="A screenshot of a computer Description automatically generated" />
-
-11. You will get a successfully logged on screen.
-
-    <img src="./media/image18.png" style="width:6.26667in;height:1.24167in"
-alt="A close-up of a white background Description automatically generated" />
-
-12. Click on the **Fiori Launchpad** link. This is the Fiori Launchpad
-    home page, which will be your gateway to the SAP Demo System.
-
-    <img src="./media/image19.png"
-style="width:6.26806in;height:2.83681in" />
-
-# Exercise 2: Create and Configure Copilot
+# Exercise 1: Create and Configure Copilot
 
 ## Task 1: Login in Copilot studio
 
@@ -332,7 +212,7 @@ style="width:6.26806in;height:2.80069in" />
     <img src="./media/image28.png"
 style="width:6.26806in;height:2.62222in" />
 
-# Exercise 3: Create Power Automate Flow for SAP Integration
+# Exercise 2: Create Power Automate Flow for SAP Integration
 
 ## Task 1: Create Power Automate Flow for Product Information
 
@@ -392,11 +272,9 @@ style="width:6.26806in;height:3.45417in" />
     3.  **OData Base URL:**
         <https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC>
 
-    4.  **User Name:** Enter the ES5 SAP User ID which we created in
-        exercise 1 task 2.
+    4.  **User Name:** Enter the ES5 SAP User ID which we created in Use Case 1.
 
-    5.  **Password:** Enter the ES5 SAP Password which we created in
-        exercise 1 task 2.
+    5.  **Password:** Enter the ES5 SAP Password which we created in Use Case 1.
 
     <img src="./media/image37.png"
 style="width:6.26806in;height:5.86736in" />
@@ -520,7 +398,7 @@ style="width:6.26806in;height:2.29306in" />
     <img src="./media/image58.png"
 style="width:6.26806in;height:2.56389in" />
 
-# Exercise 4: Integrate Power Automate Flow with Copilot
+# Exercise 3: Integrate Power Automate Flow with Copilot
 
 ## Task 1: Integrate SAP Product Category Flow
 
@@ -796,7 +674,7 @@ style="width:6.26806in;height:2.71458in" />
     <img src="./media/image93.png"
 style="width:5.0171in;height:2.01684in" />
 
-# Exercise 5: Integrate Copilot with SAP
+# Exercise 4: Integrate Copilot with SAP
 
 1.  Go to Channels from the top bar which is placed next to Analytics
     and then click on **Microsoft Teams**.
@@ -826,7 +704,7 @@ style="width:6.26806in;height:3.56736in" />
     <img src="./media/image98.png"
 style="width:6.26806in;height:2.07014in" />
 
-# Exercise 6: Test Copilot in teams.
+# Exercise 5: Test Copilot in teams.
 
 1.  Open teams app and enter the prompt **Give me information about
     Notebooks.**
