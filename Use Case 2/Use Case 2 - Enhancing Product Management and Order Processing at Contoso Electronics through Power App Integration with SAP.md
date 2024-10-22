@@ -1,5 +1,5 @@
 <img src="./media/image1.png"
-style="width:10in;height:4in" />
+style="width:6.18889in;height:2.39444in" />
 
 # Enhancing Product Management and Order Processing at Contoso Electronics through Power App Integration with SAP
 
@@ -27,7 +27,7 @@ style="width:10in;height:4in" />
 </table>
 
 
-#  Objective
+## Objective
 
 Contoso Electronics, a leading retail company, is looking to streamline
 its product management process to improve efficiency and enhance
@@ -36,7 +36,7 @@ integrates with its SAP backend system to provide employees with easy
 access to product information, manage inventory, and facilitate customer
 orders.
 
-##  Solution Focus are
+### Solution Focus are
 
 Contoso Electronics, a leading retail company, aims to enhance its
 product management processes by developing a Power App integrated with
@@ -58,7 +58,7 @@ efficiency and customer experience.
     stock levels, and make informed decisions, ultimately leading to
     faster order processing and improved customer satisfaction.
 
-##  Persona and Scenario 
+### Persona and Scenario 
 
 1.  **Remy Morris** - Digital Solutions Architect  
 
@@ -103,7 +103,7 @@ are crucial for the success of the solution. He values easy access to
 product information and smooth order processing, which directly impacts
 his purchasing decisions.
 
-##  Pre-requisite
+### Pre-requisite
 
 1.  Admin Tenant ID
 
@@ -113,9 +113,9 @@ his purchasing decisions.
 
 
 
-# Exercise 1: Login and Create OData Connection Power Apps
+##Exercise 1: Login and Create OData Connection Power Apps
 
-## Task 1: Sign In into Power Apps
+####Task 1: Sign In into Power Apps
 
 1.  Navigate to power apps page and from top right corner click on the
     **Sign in** button.
@@ -146,7 +146,7 @@ style="width:6.26806in;height:2.68681in" />
     <img src="./media/image6.png"
 style="width:5.91057in;height:2.71168in" />
 
-## Task 2: Create SAP OData Connection
+####Task 2: Create SAP OData Connection
 
 1.  From the left Navigation bar select **More** and then click on the
     **Connections.**
@@ -184,10 +184,10 @@ style="width:6.26806in;height:3.13403in" />
     <img src="./media/image11.png"
 style="width:6.26806in;height:3.44167in" />
 
-# Exercise 2: Create and Configure Contoso Power App
+##Exercise 2: Create and Configure Contoso Power App
 
 
-## Task 1: Create Contoso Power apps
+####Task 1: Create Contoso Power apps
 
 1.  From the left-hand navigation bar select on the **+ Create** and
     then select **Blank app.**
@@ -299,7 +299,7 @@ style="width:6.26806in;height:2.77431in" />
     <img src="./media/image27.png"
 style="width:6.26806in;height:1.56111in" />
 
-## Task 2: Add SAP OData Connection in App
+####Task 2: Add SAP OData Connection in App
 
 1.  Go to Data and select Add data.
 
@@ -335,7 +335,7 @@ style="width:3.55556in;height:2.19306in" />
     <img src="./media/image33.png"
 style="width:6.26806in;height:2.0875in" />
 
-## Task 3: Configure Product Gallery Screen
+####Task 3: Configure Product Gallery Screen
 
 1.  Rename the gallery name as **Product Gallery** and adjust the
     gallery as on the canvas as shown in image.
@@ -455,7 +455,7 @@ style="width:6.26806in;height:2.65694in" />
     <img src="./media/image50.png"
 style="width:6.26806in;height:2.61597in" />
 
-## Task 4: Create and Add the Power Apps Table
+####Task 4: Create and Add the Power Apps Table
 
 1.  Go to **Data** section, click on **+ Add Data** and then select
     **Create new tables**. Power Apps tables with open.
@@ -509,7 +509,7 @@ style="width:6.26806in;height:2.14444in" />
     <img src="./media/image59.png"
 style="width:6.26806in;height:2.85139in" />
 
-## Task 5: Create Order Summary Screen form Contoso Product App
+####Task 5: Create Order Summary Screen form Contoso Product App
 
 1.  Go to **Tree** **view** 🡪 **Screens**. Click on **+ New Screen** and
     then select **Blank.**
@@ -660,7 +660,7 @@ style="width:3.88333in;height:2.53958in" />
 style="width:6.26806in;height:2.40486in" />
 
 
-## Task 6: Add Customer Information section
+####Task 6: Add Customer Information section
 
 1.  Click on **Order Summary**, Go to Insert. Search and Select **Text
     Label**.
@@ -735,7 +735,7 @@ style="width:6.26806in;height:2.38819in" />
     <img src="./media/image91.png"
 style="width:6.26806in;height:2.38819in" />
 
-# Exercise 3: Test Contoso Product App
+##Exercise 3: Test Contoso Product App
 
 1.  From the top bar click on the Play button to start testing.
 
