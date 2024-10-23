@@ -1,4 +1,4 @@
-# Enhancing Product Management and Order Processing at Contoso Electronics through Power App Integration with SAP
+# Lab 2 - Enhancing Product Management and Order Processing at Contoso Electronics through Power App Integration with SAP
 
 ## Objective
 
