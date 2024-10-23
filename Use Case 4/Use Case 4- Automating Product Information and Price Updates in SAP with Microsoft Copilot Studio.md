@@ -1,31 +1,4 @@
-<img src="./media/image1.png"
-style="width:10in;height:4in" />
-
-# Automating Product Information and Price Updates in SAP with Microsoft
-Copilot Studio
-
-<table>
-  <tr>
-    <td><strong>Description</strong></td>
-    <td>In this lab, participants will start by creating an SAP account and setting up a Gateway Demo System to access SAP services. The next step involves configuring Microsoft Copilot Studio and creating a Copilot with generative AI capabilities tailored for SAP product integration. Participants will then create Power Automate flows for querying product information from SAP and updating product prices. These flows will be integrated with the Copilot, allowing users to interact with SAP through Microsoft Teams. Finally, the lab will conclude with testing the Copilot within Teams by retrieving product information and updating product prices, followed by verification of the updates in the SAP system.</td>
-  </tr>
-  <tr>
-    <td><strong>Prerequisites</strong></td>
-    <td>To get the most out of this lab guide we recommend you have Work or school Email ID-Password, Microsoft copilot Trial License, Microsoft Teams Trial Licence, Microsoft Power Automate trial license.</td>
-  </tr>
-  <tr>
-    <td><strong>Duration</strong></td>
-    <td>1 hour</td>
-  </tr>
-  <tr>
-    <td><strong>Version</strong></td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>Publication date</strong></td>
-    <td>October 2024</td>
-  </tr>
-</table>
+# Automating Product Information and Price Updates in SAP with Microsoft Copilot Studio
 
 
 ## Objective 
@@ -62,82 +35,7 @@ To address these challenges, Contoso will use Microsoft Copilot Studio
 integrated with Power Automate to automate SAP queries and updates,
 ensuring accuracy and efficiency in operations.
 
-## Persona and Scenario 
-
-1.  **Remy Morris** - Digital Solutions Architect
-
-2.  **Mark Brown** – Project Lead
-
-3.  **David Flores** – App Developer
-
-4.  **Jane Miller** – App Tester
-
-5.  **Thomas Green** – Operations Team Member (Product Information
-    Query)
-
-6.  **Lucy Wright** – Operations Team Member (Price Update)
-
-These personas will participate in the following sequential scenarios:
-
-1.  **Remy Morris**, the Digital Solutions Architect at Contoso
-    Electronics, designs the integration framework for automating SAP
-    queries and price updates using Copilot Studio and Power Automate.
-    He collaborates with **Mark Brown**, the Project Lead, to select the
-    appropriate tools and components for the solution.
-
-2.  **Mark Brown** provides **David Flores** with the requirements and
-    processes to develop Power Automate flows integrated with Copilot
-    Studio for querying product information and updating prices in SAP.
-
-3.  **David Flores** creates Power Automate flows that query product
-    data from SAP and update product prices. These flows are integrated
-    with Microsoft Copilot Studio for seamless interaction and guidance.
-    **Jane Miller**, the app tester, tests the flows to ensure they work
-    correctly and meet Contoso's operational needs.
-
-4.  After successful testing, **Mark Brown** deploys the automated
-    solution. Now, the operations team can query product information and
-    update product prices in SAP through Copilot Studio, integrated with
-    Power Automate.
-
-5.  **Thomas Green**, a member of the operations team, uses the Copilot
-    Studio interface to query the latest product information from SAP.
-    He retrieves details such as product descriptions, inventory status,
-    and existing prices, enabling him to make quick decisions.
-
-6.  **Lucy Wright**, another operations team member, uses Copilot Studio
-    to update prices for several products in SAP based on a new
-    promotion. She verifies the changes in real-time within SAP,
-    ensuring that prices are updated accurately and efficiently.
-
-### Use Case Scenario for Participants 
-
-- **Thomas Green** logs into Copilot Studio and queries SAP for product
-  details using a pre-configured Power Automate flow. The query returns
-  the product specifications, availability, and current price, helping
-  him plan for upcoming promotions.
-
-- **Lucy Wright** uses Copilot Studio to update the prices of products
-  in SAP. After inputting the new price, the Power Automate flow
-  triggers the update in SAP, and she verifies the successful price
-  changes within the system.
-
-## Pre-requisites 
-
-For this use case, all participants will need the following:
-
-1.  Admin Tenant Email ID and Password
-
-2.  Microsoft Copilot Studio Free Trial License
-
-3.  Microsoft Power Automate Free Trial License
-
-4.  SAP System Credentials (for Gateway Demo System)
-
-5.  Microsoft Teams Access for Copilot Testing
-
-
-<br>
+### Estimated Time : 45 min
 <br>
 
 ## Exercise 1: Create and Configure Copilot
@@ -758,3 +656,7 @@ style="width:6.26806in;height:1.72014in" />
 
     <img src="./media/image105.png"
 style="width:6.26806in;height:1.47778in" />
+
+### Conclusion
+
+In this lab, participants learned how to create an SAP account and set up a Gateway Demo System for accessing SAP. They were guided through configuring Microsoft Copilot Studio with generative AI capabilities to integrate SAP and automate product information retrieval and updates. Using Power Automate, participants created flows to fetch and update product data in SAP. The lab concluded with integrating Copilot into Microsoft Teams, providing an interactive way to manage SAP data. The exercises highlighted key skills in connecting SAP with Microsoft technologies for streamlined business processes.
