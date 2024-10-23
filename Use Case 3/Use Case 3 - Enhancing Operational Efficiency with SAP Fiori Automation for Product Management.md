@@ -1,4 +1,4 @@
-# Enhancing Operational Efficiency with SAP Fiori Automation for Product Management
+# Lab 3 - Enhancing Operational Efficiency with SAP Fiori Automation for Product Management
 
 ## Objective 
 
