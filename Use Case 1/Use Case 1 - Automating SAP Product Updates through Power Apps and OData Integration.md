@@ -1,34 +1,4 @@
-<img src="./media/image1.png"
-style="width:10in;height:4in" />
-
 # Automating SAP Product Updates through Power Apps and OData Integration
-
-<table>
-  <tr>
-    <td>Description</th>
-    <td>This lab provides hands-on experience with integrating SAP and Power Platform by guiding participants through key exercises such as setting up an SAP account, creating a custom OData connector, building a Power Apps canvas app, adding a Power Automate flow, and invoking the flow to update product information. Participants will learn how to access and work with SAP data through Power Apps and Power Automate, leveraging OData connections to automate and streamline business processes.</td>
-  </tr>
-  <tr>
-    <td>Prerequisites</th>
-    <td>To get the most out of this lab guide we recommend you have School or Work Email ID, Microsoft 365 admin tenant Id, Power apps trial license, Power Automate trial license.</td>
-  </tr>
-  <tr>
-    <td>Duration</th>
-    <td>45 mins</td>
-  </tr>
-  <tr>
-    <td>Version</th>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td>Publication date</th>
-    <td>October 2024</td>
-  </tr>
-</table>
-
-
-<br>
-<br>
 
 ## Objective 
 
@@ -62,65 +32,9 @@ To address these challenges, Contoso Electronics will implement an
 integrated solution using Power Apps, Power Automate, and a custom OData
 connector to automate the retrieval and updating of product data in SAP.
 
-## Persona and Scenario: 
-
-1.  Remy Morris – Digital Solutions Architect
-
-2.  Mark Brown – Project Lead
-
-3.  David Flores – App Developer
-
-4.  Jane Miller – App Tester
-
-5.  Grady Archie – Inventory Manager
-
-The following scenario outlines how Contoso’s team collaborates to
-build, test, and deploy an automated SAP product update solution:
-
-1.  Remy Morris, the Digital Solutions Architect, identifies the need
-    for integrating SAP with Power Platform to automate product updates.
-    He collaborates with Mark Brown, the Project Lead, to design the
-    architecture and select the appropriate tools, including Power Apps,
-    Power Automate, and an OData connector for SAP.
-
-2.  Mark Brown explains the project’s scope to David Flores, the App
-    Developer, and tasks him with building a Power Apps canvas app that
-    can connect to SAP, retrieve product data, and allow users to make
-    updates. David also configures a Power Automate flow to automate the
-    process of updating the product information.
-
-3.  David successfully develops the app and integrates it with the SAP
-    OData API, allowing users to select a product, view its details, and
-    update fields such as price and description. He submits the app to
-    Jane Miller, the App Tester, for validation.
-
-4.  After testing the app and flow, Jane confirms that the system is
-    functioning as expected, with product updates being accurately
-    reflected in the SAP system. The solution is then deployed for use.
-
-5.  Grady Archie, an Inventory Manager at Contoso, uses the app to
-    update the price of a 10” Portable DVD Player from \$449.99 to
-    \$349.99. After making the update in the app, the Power Automate
-    flow is triggered, and the price change is reflected in SAP in
-    real-time. Grady verifies the successful update by checking the
-    product in the SAP Fiori Launchpad.
-
-## Pre-requisites:
-
-For this use case, all participants will need the following:
-
-1.  Admin Tenant Email ID and Password
-
-2.  Microsoft Power Apps Free Trial License
-
-3.  Microsoft Power Automate Free Trial License
-
-4.  SAP OData API access credentials
-
+### Estimated Time: 45 min
 
 <br>
-<br>
-
 
 ## Exercise 1: Create an SAP Account
 
@@ -632,3 +546,7 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image73.png" style="width:6.26806in;height:2.62847in"
 alt="A screenshot of a computer Description automatically generated" />
+
+### Conclusion
+
+In this lab, participants learned how to integrate SAP with Microsoft Power Platform by creating an SAP account and accessing the SAP Gateway Demo System. They configured a custom OData connector to link SAP data with Power Apps, built a Canvas App to display and update product information, and created a Power Automate flow to automate product updates. The lab concluded with testing the app and flow, verifying updates in the SAP Fiori Launchpad, equipping participants with key skills for SAP-Power Platform integration.
