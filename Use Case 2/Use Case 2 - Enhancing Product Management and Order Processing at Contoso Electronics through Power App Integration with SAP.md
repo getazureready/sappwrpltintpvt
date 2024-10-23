@@ -1,31 +1,4 @@
-<img src="./media/image1.png"
-style="width:10in;height:4in" />
-
 # Enhancing Product Management and Order Processing at Contoso Electronics through Power App Integration with SAP
-
-<table>
-    <tr>
-        <td>Description</td>
-        <td>In this lab, participants will explore the integration of a Power App with the SAP backend, designed to streamline product management and order processing at Contoso Electronics. Led by Remy Morris, the Digital Solutions Architect, the lab will involve collaborative efforts from the project team, including Mark Brown, the Project Lead, and David Flores, the App Developer. Participants will learn to develop, test, and refine the Power App under the guidance of Jane Miller, the App Tester, ensuring a user-friendly experience for end-users like Grady Archie, the customer. This hands-on session will emphasize best practices in integrating SAP data connectors and enhancing user satisfaction.</td>
-    </tr>
-    <tr>
-        <td>Pre-requisite</td>
-        <td>Participants should have a foundational understanding of Power Apps and SAP systems. Access to a Power Apps environment and necessary SAP credentials are required. Familiarity with app development concepts and testing methodologies will also be beneficial for optimal engagement in the lab activities.</td>
-    </tr>
-    <tr>
-        <td>Duration</td>
-        <td>45 mins</td>
-    </tr>
-    <tr>
-        <td>Version</td>
-        <td>1.0</td>
-    </tr>
-    <tr>
-        <td>Publishing date</td>
-        <td>October 2024</td>
-    </tr>
-</table>
-
 
 ## Objective
 
@@ -58,62 +31,10 @@ efficiency and customer experience.
     stock levels, and make informed decisions, ultimately leading to
     faster order processing and improved customer satisfaction.
 
-### Persona and Scenario 
-
-1.  **Remy Morris** - Digital Solutions Architect  
-
-2.  **Mark Brown** – Project lead  
-
-3.  **David Flores** – App developer  
-
-4.  **Jane Miller** – App tester  
-
-5.  **Grady Archie –** Customer (Prodcut Purchase)
-
-**Remy Morris - Digital Solutions Architect**  
-Remy is responsible for designing and implementing digital solutions
-that align with Contoso Electronics' business goals. With a deep
-understanding of both technology and business processes, Remy ensures
-that the integration of the Power App with the SAP backend meets
-technical requirements while enhancing user experience.
-
-**Mark Brown - Project Lead**  
-Mark oversees the entire project, ensuring timely delivery and effective
-communication among team members. With strong leadership skills, he
-coordinates tasks, manages resources, and addresses any challenges that
-arise during the development and implementation of the Power App.
-
-**David Flores - App Developer**  
-David is the technical expert behind the Power App, responsible for
-coding and integrating various features. His expertise in app
-development and familiarity with SAP data connectors allow him to create
-a seamless user interface that enhances product management and order
-processing.
-
-**Jane Miller - App Tester**  
-Jane is tasked with testing the Power App to ensure it functions
-correctly and meets quality standards. With a keen eye for detail, she
-identifies bugs and provides feedback to the development team, ensuring
-the app is user-friendly and reliable before launch.
-
-**Grady Archie - Customer (Product Purchase)**  
-Grady is a customer who interacts with Contoso Electronics’ product
-management system through the Power App. His experience and satisfaction
-are crucial for the success of the solution. He values easy access to
-product information and smooth order processing, which directly impacts
-his purchasing decisions.
-
-### Pre-requisite
-
-1.  Admin Tenant ID
-
-2.  Power App Trial License
-
-3.  SAP ES5 P User ID and Password
+### Estimated Time : 45 mins
 
 
-
-##Exercise 1: Login and Create OData Connection Power Apps
+## Exercise 1: Login and Create OData Connection Power Apps
 
 ### Task 1: Sign In into Power Apps
 
@@ -184,7 +105,7 @@ style="width:6.26806in;height:3.13403in" />
     <img src="./media/image11.png"
 style="width:6.26806in;height:3.44167in" />
 
-##Exercise 2: Create and Configure Contoso Power App
+## Exercise 2: Create and Configure Contoso Power App
 
 
 ### Task 1: Create Contoso Power apps
@@ -735,7 +656,7 @@ style="width:6.26806in;height:2.38819in" />
     <img src="./media/image91.png"
 style="width:6.26806in;height:2.38819in" />
 
-##Exercise 3: Test Contoso Product App
+## Exercise 3: Test Contoso Product App
 
 1.  From the top bar click on the Play button to start testing.
 
@@ -765,3 +686,7 @@ style="width:6.26806in;height:2.77708in" />
 
     <img src="./media/image96.png"
 style="width:6.26806in;height:1.07292in" />
+
+### Conclusion
+
+In this lab, participants learned how to create an SAP OData connection within Power Apps, design a custom app (Contoso Product App), and integrate it with SAP data. They practiced adding SAP OData data to the app, configuring a product gallery to display items, and building functionality to filter, search, and add items to a cart. Additionally, participants created an order summary screen, added customer information input fields, and implemented a submission process using Power Apps tables. Finally, they tested the app by searching and adding products to the cart, enhancing their skills in Power Apps and SAP integration.
