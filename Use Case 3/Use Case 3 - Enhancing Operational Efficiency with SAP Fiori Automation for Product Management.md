@@ -1,36 +1,4 @@
-<img src="./media/image1.png"
-style="width:10in;height:4in" />
-
-
 # Enhancing Operational Efficiency with SAP Fiori Automation for Product Management
-
-<table>
-  <tr>
-    <td>Description</td>
-    <td>This lab focuses on automating tasks within SAP Fiori using Power Automate Desktop. Participants will begin by installing Power Automate Desktop and creating a flow named SAP Fiori Automation. The flow will involve declaring input variables for the SAP User ID and Password, as well as an output variable for processing results. Subsequent exercises will introduce exception handling through a sub flow and create a logon sub flow to automate the login process to SAP Fiori. Participants will capture UI elements, perform actions such as clicking links and populating text fields, and extract data into an Excel spreadsheet. Finally, the main flow will be configured to execute the logon, product search, and logoff sub flows in sequence, culminating in testing the entire automation process.</td>
-  </tr>
-  <tr>
-    <td>Prerequisites</td>
-    <td>To get the most out of this lab guide we recommend you have Microsoft 365 Tenant credentials, SAP Gateway Demo Server - ES5 User ID and Password, Power Automate desktop trial license.</td>
-  </tr>
-  <tr>
-    <td>Duration</td>
-    <td>1 hours</td>
-  </tr>
-  <tr>
-    <td>Version</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td>Publication date</td>
-    <td>October 2024</td>
-  </tr>
-</table>
-
-<br>
-<br>
-
-## Objective & Scenario
 
 ## Objective 
 
@@ -61,73 +29,7 @@ implement Power Automate Desktop to automate the product search and
 report generation process. The automation will reduce manual effort,
 increase accuracy, and improve overall productivity.
 
-## Persona and Scenario 
-
-1.  **Remy Morris** – Digital Solutions Architect
-
-2.  **Mark Brown** – Project Lead
-
-3.  **David Flores** – Power Automate Developer
-
-4.  **Jane Miller** – Tester
-
-5.  **Grady Archie** – Product Manager (Automated Product Search)
-
-6.  **Miriam Graham** – Operations Manager (Automated Reporting)
-
-These personas will participate in the following sequential scenarios:
-
-1.  **Remy Morris**, Digital Solutions Architect at Contoso Electronics,
-    designs the automation architecture to align with business goals and
-    presents the solution framework to **Mark Brown**, the Project Lead.
-    Remy assists Mark in selecting the appropriate Power Automate
-    Desktop flows and actions needed for automated data handling.
-
-2.  **Mark Brown** reviews the architecture and provides an overview to
-    **David Flores**, a Power Automate Developer, who is tasked with
-    developing the automation flow. David’s focus is on creating a
-    desktop flow that can:
-
-    - Perform automated product searches across multiple databases.
-
-    - Generate accurate product reports in Excel, including details such
-      as stock levels, pricing, and supplier information.
-
-3.  **David Flores** successfully develops the automation in Power
-    Automate Desktop. The flow includes searching product data,
-    filtering results based on specific criteria, and automatically
-    creating detailed reports in Excel. He submits the flow to **Jane
-    Miller** for testing.
-
-4.  **Jane Miller**, after testing the automation thoroughly, validates
-    the functionality and confirms that the flow runs successfully
-    without errors. She ensures that the product search and report
-    generation processes are efficient and accurate.
-
-5.  **Grady Archie**, a Product Manager at Contoso, uses the Power
-    Automate Desktop flow to search for product inventory information.
-    He initiates the automation, which quickly retrieves product details
-    and generates a report, saving him hours of manual effort.
-
-6.  **Miriam Graham**, the Operations Manager, leverages the automation
-    to generate a weekly product report. The automated process enables
-    her to compile all necessary data into a single Excel file, ensuring
-    operational insights are gathered and reported accurately.
-
-## Pre-requisites 
-
-For this use case, all participants will need the following:
-
-1.  Admin Tenant Email ID and Password.
-
-2.  Microsoft Power Automate Desktop installed and configured.
-
-3.  Power Automate Desktop Trial License
-
-4.  SAP Gateway Demo Server - ES5 User ID and Password
-
-<br>
-<br>
+### Estimated Time: 60 min
 
 ## Exercise 1: Create a flow and declare the variables
 
@@ -175,7 +77,7 @@ style="width:6.26806in;height:7.64722in" />
 
 8.  You will be navigated to Power Automate for Desktop Home page.
 
-## Task 2: Create a Power Automate Desktop flow.
+### Task 2: Create a Power Automate Desktop flow.
 
 1.  Open the Power Automate Desktop icon from the Desktop.
 
@@ -860,4 +762,8 @@ alt="A screenshot of a computer Description automatically generated" />
 
     6.  Logs off from the system.
 
-    7.  Closes the browser.
+### Conclusion
+
+In this lab, participants have successfully learned how to automate SAP Fiori tasks using Power Automate Desktop. They explored key concepts such as installing the Power Automate Desktop environment, creating flows, and managing variables. Additionally, they developed error handling with subflows, automated the SAP Fiori login process, and captured web UI elements to automate actions like searching for products by supplier. This exercise enhances participants' automation skills and introduces them to streamlining SAP Fiori processes efficiently through Power Automate Desktop flows.
+
+    8.  Closes the browser.
