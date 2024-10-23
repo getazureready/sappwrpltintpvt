@@ -762,8 +762,10 @@ alt="A screenshot of a computer Description automatically generated" />
 
     6.  Logs off from the system.
 
+    7. Closes the browser.
+
+
 ### Conclusion
 
 In this lab, participants have successfully learned how to automate SAP Fiori tasks using Power Automate Desktop. They explored key concepts such as installing the Power Automate Desktop environment, creating flows, and managing variables. Additionally, they developed error handling with subflows, automated the SAP Fiori login process, and captured web UI elements to automate actions like searching for products by supplier. This exercise enhances participants' automation skills and introduces them to streamlining SAP Fiori processes efficiently through Power Automate Desktop flows.
 
-    8.  Closes the browser.
