@@ -12,7 +12,7 @@ and operational improvements.
 
 ## Solution Focus Area 
 
-Contoso Electronics is continuously updating its product catalog and
+Contoso Electronics is continuously updating its product catalogue and
 prices based on market trends and promotions. However, the manual
 process of querying product information and updating prices in SAP
 systems is time-consuming and prone to human error. The goal is to
@@ -201,7 +201,7 @@ style="width:6.21721in;height:2.68357in" />
 
 14. Enter **Product Output** as output name and then enter the
     **string(body('Query_OData_entities'))** as the value of the output
-    with the help of function. Click on the Add button after entering the
+    with the help of function. click on the Add button after entering the
     output query.
 
     <img src="./media/image42.png" style="width:6.26806in;height:3.775in" />
@@ -356,13 +356,13 @@ style="width:6.26806in;height:4.01111in" />
     <img src="./media/image67.png"
 style="width:6.26806in;height:3.83125in" />
 
-8.  Go to action section and the select the SAP Product Category action.
+8.  Go to the action section and then select the SAP Product Category action.
 
     <img src="./media/image68.png"
 style="width:6.26806in;height:2.09583in" />
 
 9.  Go to **Output** section and check the box **Respond to the user
-    after running this action**. After check the box click on the save
+    after running this action**. After checking the box click on the save
     button.
 
     <img src="./media/image69.png"
@@ -510,7 +510,7 @@ style="width:6.26806in;height:3.56389in" />
     <img src="./media/image82.png"
 style="width:6.26806in;height:2.44722in" />
 
-10. Repeat same process for next output Var2 is created.
+10. Repeat the same process for the next output Var2 is created.
 
     <img src="./media/image83.png"
 style="width:4.51706in;height:2.6669in" />
@@ -544,14 +544,14 @@ style="width:5.84217in;height:3.34196in" />
 style="width:6.26806in;height:2.79583in" />
 
 15. Click on the Test button and enter the prompt Update Price. Then
-    fill the Product ID (HT-1001) and price (1540), click on submit.
-    After click on submit a message show to connect. Click on the
+    fill in the Product ID (HT-1001) and price (1540), click on submit.
+    After clicking on submit a message show to connect. Click on the
     connect.
 
     <img src="./media/image89.png"
 style="width:6.26806in;height:4.69931in" />
 
-16. It will navigate to other window which manage the connections. Click
+16. It will navigate to another window which manages the connections. Click
     on the connect button of Update Product Price.
 
     <img src="./media/image90.png"
