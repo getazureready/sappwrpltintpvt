@@ -49,7 +49,7 @@ ensuring accuracy and efficiency in operations.
     <img src="./media/image20.png"
 style="width:6.26806in;height:2.87083in" />
 
-2.  Enter the login **admin tenant login ID / Work-School ID** and click
+2.  Enter the login **admin tenant login ID** and click
     on the Next. For this lab we use **Admin tenant ID and Password.**
 
     <img src="./media/image21.png"
