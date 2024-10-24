@@ -167,7 +167,7 @@ alt="A close-up of a white background Description automatically generated" />
     <img src="./media/image20.png"
 style="width:6.26806in;height:2.97986in" />
 
-3.  Under the "Let's get started" section, you'll see a text box
+3.  Under the "Let's get started" section, you will see a text box
     labelled **Enter your Microsoft 365 admin credential or Work-School
     Email Id**.
 
@@ -190,9 +190,9 @@ style="width:6.26806in;height:2.93472in" />
     <img src="./media/image22.png"
 style="width:6.26806in;height:3.37431in" />
 
-8.  Once you're signed in, look at the top-right corner of the screen.
+8.  Once you are signed in, look at the top-right corner of the screen.
     Choose the environment **Dev One.** This is important for the next
-    steps, as you’ll need to select this environment when working in
+    steps, as you will need to select this environment when working in
     Power Apps. 
 
     <img src="./media/image23.png" style="width:6.26806in;height:0.88958in"
@@ -298,8 +298,7 @@ style="width:6.26806in;height:2.83264in" />
     <img src="./media/image37.png"
 style="width:6.26806in;height:2.78819in" />
 
-4.  The imported app is look like given below, the app has got multiple
-    errors since we have not connected to the SAP through ODATA yet.
+4.  The imported app looks like the given below, the app has multiple errors since we have not connected to SAP through ODATA yet. 
 
     <img src="./media/image38.png"
 style="width:6.26806in;height:3.94722in" />
@@ -319,7 +318,7 @@ alt="A screenshot of a login box Description automatically generated" />
     <img src="./media/image41.png" style="width:4.9921in;height:2.34187in"
 alt="A screenshot of a computer Description automatically generated" />
 
-7.  Once the connection is made, all the errors except for one would
+7.  Once the connection is made, all the errors except for one will
     have been resolved. Click on **Gallery3** from Tree view. Select
     **Advanced** tab from the **Gallery** Pane.
 
@@ -341,7 +340,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image44.png"
 style="width:6.26806in;height:0.75972in" />
 
-10. Click on **Refresh icon** of the Products on the app. Here, we can
+10. Click on the **Refresh icon** of the Products on the app. Here, we can
     find the list of all the products from the demo SAP System, that we
     browsed through the Fiori launchpad.
 
@@ -358,12 +357,12 @@ alt="A screenshot of a computer Description automatically generated" />
     update to the Price and click on the Tick mark. When clicked, we get
     an error message,
 
-    > TODO: Fix the “OnSelect” formula to invoke a flow. This is because, we have not defined UpdateButton yet.
+    > TODO: Fix the “OnSelect” formula to invoke a flow. This is because we have not defined UpdateButton yet.
 
     <img src="./media/image47.png" style="width:6.26806in;height:3.52292in"
 alt="A screenshot of a computer Description automatically generated" />
 
-13. From top right corner close the app.
+13. From the top right corner close the app.
 
     <img src="./media/image48.png" style="width:6.26806in;height:3.66181in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -516,7 +515,7 @@ alt="A screenshot of a computer Description automatically generated" />
 alt="A screenshot of a computer Description automatically generated" />
 
     > Select the product, **10” Portable DVD player.** Change the Price on
-the right-side pane of the app as **349.99** from 449.99. Click on the
+the right-side pane of the app to **349.99** from 449.99. Click on the
 **Tick Mark (UpdateButton)**. This action should trigger the
 **UpdateProducts** Power Automate flow.
 
