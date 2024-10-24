@@ -20,7 +20,7 @@ efficiency and customer experience.
 1.  **Power Apps Development:** The initiative will leverage a
     user-friendly interface to enable employees to access and manage
     real-time product data from SAP using OData connectors. Features
-    such as a dynamic product catalog and detailed product insights will
+    such as a dynamic product catalogue and detailed product insights will
     empower the sales team to quickly find necessary information and
     facilitate smoother order management.
 
@@ -38,7 +38,7 @@ efficiency and customer experience.
 
 ### Task 1: Sign In into Power Apps
 
-1.  Navigate to power apps page and from top right corner click on the
+1.  Navigate to the power apps page and from the top right corner click on the
     **Sign in** button.
 
     <img src="./media/image2.png"
@@ -62,7 +62,7 @@ style="width:6.26806in;height:2.66319in" />
 style="width:6.26806in;height:2.68681in" />
 
 5.  After Login From the top bar chose the developer **environment**. In
-    our case **Dev One** is development environment.
+    our case **Dev One** is a development environment.
 
     <img src="./media/image6.png"
 style="width:5.91057in;height:2.71168in" />
@@ -86,7 +86,7 @@ style="width:6.26806in;height:2.65556in" />
     <img src="./media/image9.png"
 style="width:6.26806in;height:1.97569in" />
 
-4.  Enter the following detail in the SAP OData configuration window.
+4.  Enter the following details in the SAP OData configuration window.
 
     | Authentication Type | Basic |
     |----|----|
@@ -99,7 +99,7 @@ style="width:6.26806in;height:3.13403in" />
 
 5.  The New Connection is created now, click on the three dots (…) of
     the connection and select **Edit**. Rename the Display Name as
-    **Contoso-Product**. Enter again same P ID and Password and click on
+    **Contoso-Product**. Enter again the same P ID and Password and click on
     **Save**.
 
     <img src="./media/image11.png"
@@ -401,7 +401,7 @@ style="width:6.26806in;height:2.44861in" />
     <img src="./media/image54.png" style="width:6.26806in;height:3.175in" />
 
 5.  Select **+ New column** and enter the display name as **Product
-    Price**, After entering the name click on **Save**.
+    Price**, after entering the name click on **Save**.
 
     <img src="./media/image55.png"
 style="width:4.73681in;height:2.90139in" />
@@ -424,7 +424,7 @@ style="width:5.46076in;height:2.60417in" />
 style="width:6.26806in;height:2.14444in" />
 
 9.  From top of the window and click on the **Save and exit**.
-    Confirmation window pop up **again click on Save and exit** to save
+    Confirmation windows pop up **again click on Save and exit** to save
     the table. It will automatically redirect to Contoso app.
 
     <img src="./media/image59.png"
@@ -669,7 +669,7 @@ style="width:6.26806in;height:0.70069in" />
     <img src="./media/image93.png"
 style="width:6.26806in;height:3.07222in" />
 
-3.  Search **Notebook** in the search field and Choose a notebook and
+3.  Search **Notebook** in the search field and choose a notebook and
     click on the **Add to cart** button. After that click on **Go to
     Cart** Button.
 
