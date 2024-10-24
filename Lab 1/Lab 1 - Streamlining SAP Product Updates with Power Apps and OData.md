@@ -1,4 +1,4 @@
-# Lab 1 - Automating SAP Product Updates through Power Apps and OData Integration
+# Lab 1 - Streamlining SAP Product Updates with Power Apps and OData
 
 ## Objective 
 
