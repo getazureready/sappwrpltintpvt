@@ -35,8 +35,8 @@ increase accuracy, and improve overall productivity.
 
 ### Task 1: Install Power Automate Desktop
 
-1.  Sign in with your Office 365 tenant credentials to Power Automate
-    using <https://make.powerautomate.com/>. Click **My flows **from
+1.  Sign in with your Admin tenant credentials to Power Automate
+    using <https://make.powerautomate.com/>. Click **My flows** from
     left pane. Click **Desktop flows** then click **Install \>Power
     Automate for Desktop**.
 
@@ -70,7 +70,7 @@ alt="Graphical user interface, application Description automatically generated" 
 
     <img src="./media/image7.png" style="width:6.26806in;height:4.7in" />
 
-7.  Sign in with your Office 365 tenant credentials.
+7.  Sign in with your Admin tenant credentials.
 
     <img src="./media/image8.png"
 style="width:6.26806in;height:7.64722in" />
