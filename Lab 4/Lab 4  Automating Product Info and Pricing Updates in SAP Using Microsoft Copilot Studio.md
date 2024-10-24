@@ -50,7 +50,7 @@ ensuring accuracy and efficiency in operations.
 style="width:6.26806in;height:2.87083in" />
 
 2.  Enter the login **admin tenant login ID** and click
-    on the Next. For this lab we use **Admin tenant ID and Password.**
+    on the Next.
 
     <img src="./media/image21.png"
 style="width:6.26806in;height:3.23472in" />
