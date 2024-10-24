@@ -1,4 +1,4 @@
-# Lab 4 - Automating Product Information and Price Updates in SAP with Microsoft Copilot Studio
+# Lab 4 - Automating Product Info and Pricing Updates in SAP Using Microsoft Copilot Studio
 
 
 ## Objective 
