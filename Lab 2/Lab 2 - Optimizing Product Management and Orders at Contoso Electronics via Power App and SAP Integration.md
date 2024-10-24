@@ -91,8 +91,8 @@ style="width:6.26806in;height:1.97569in" />
     | Authentication Type | Basic |
     |----|----|
     | OData Base URL | <https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC> |
-    | User Name | Enter SAP ES5 P-ID (we created in Use case 1) |
-    | Password | Enter SAP ES5 P-Password (we created in Use case 1) |
+    | User Name | Enter SAP ES5 P-ID (we created in Lab 1) |
+    | Password | Enter SAP ES5 P-Password (we created in Lab 1) |
 
     <img src="./media/image10.png"
 style="width:6.26806in;height:3.13403in" />
