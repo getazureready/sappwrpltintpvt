@@ -68,7 +68,7 @@ style="width:6.26806in;height:3.80972in" />
 
 ### Task 2: Create a Copilot with Gen AI Capabilities
 
-1.  Opne Copilot studio and from top environment sections select **Dev
+1.  Open Copilot studio and from top environment sections select **Dev
     One** environment.
 
     <img src="./media/image24.png"
@@ -95,7 +95,7 @@ style="width:6.26806in;height:2.64306in" />
         and fetch product information live from SAP and update price of
         products.
 
-    3.  **Instructions:** The copilot has to check the available product
+    3.  **Instructions:** The copilot must check the available product
         in SAP system and provide the product information as per the
         requirement and update the price of the product.
 
@@ -201,7 +201,7 @@ style="width:6.21721in;height:2.68357in" />
 
 14. Enter **Product Output** as output name and then enter the
     **string(body('Query_OData_entities'))** as the value of the output
-    with the help of function. Click on the Add button after enter the
+    with the help of function. Click on the Add button after entering the
     output query.
 
     <img src="./media/image42.png" style="width:6.26806in;height:3.775in" />
@@ -370,13 +370,13 @@ style="width:6.26806in;height:3.47361in" />
 
 10. Click on the Test Button place as the top right side and enter the
     prompt Notebooks in the respected field. It will return the connect
-    request. Click on the connect to give the permission. After select
+    request. Click on the connect to give permission. After select
     connect, it will redirect to connection window.
 
     <img src="./media/image70.png"
 style="width:6.26806in;height:2.48958in" />
 
-11. In Manage your connections window click on the connect button.
+11. In the Manage your connections window click on the connect button.
 
     <img src="./media/image71.png"
 style="width:6.26806in;height:2.20278in" />
@@ -515,8 +515,8 @@ style="width:6.26806in;height:2.44722in" />
     <img src="./media/image83.png"
 style="width:4.51706in;height:2.6669in" />
 
-11. Go to variable from the top and select all right side check box for
-    all variable.
+11. Go to variable from the top and select all right-side check box for
+    all variables.
 
     <img src="./media/image84.png"
 style="width:6.26806in;height:3.05694in" />
@@ -563,7 +563,7 @@ style="width:6.26806in;height:1.86389in" />
     <img src="./media/image91.png"
 style="width:6.26806in;height:2.71458in" />
 
-18. After the completing it shows connected.
+18. After completing it shows connected.
 
     <img src="./media/image92.png" style="width:6.26806in;height:2.075in" />
 
