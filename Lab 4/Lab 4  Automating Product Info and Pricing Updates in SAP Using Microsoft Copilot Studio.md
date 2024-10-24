@@ -170,9 +170,9 @@ style="width:6.26806in;height:3.45417in" />
     3.  **OData Base URL:**
         <https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC>
 
-    4.  **User Name:** Enter the ES5 SAP User ID which we created in Use Case 1.
+    4.  **User Name:** Enter the ES5 SAP User ID which we created in Lab 1.
 
-    5.  **Password:** Enter the ES5 SAP Password which we created in Use Case 1.
+    5.  **Password:** Enter the ES5 SAP Password which we created in Lab 1.
 
     <img src="./media/image37.png"
 style="width:6.26806in;height:5.86736in" />
