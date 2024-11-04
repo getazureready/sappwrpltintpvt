@@ -46,45 +46,45 @@ ensuring accuracy and efficiency in operations.
     <https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio>
     and click on **Sign in** button.
 
-    <img src="./media/image20.png"
-style="width:6.26806in;height:2.87083in" />
+    ![](./media/image20.png)
+
 
 2.  Enter the login **admin tenant login ID** and click
     on the Next.
 
-    <img src="./media/image21.png"
-style="width:6.26806in;height:3.23472in" />
+    ![](./media/image21.png)
+
 
 3.  Enter the **Admin tenant Password** and click on the **Sign In**
     button.
 
-    <img src="./media/image22.png"
-style="width:6.26806in;height:3.10833in" />
+    ![](./media/image22.png)
+
 
 4.  Select **yes** for stayed sign in with credential.
 
-    <img src="./media/image23.png"
-style="width:6.26806in;height:3.80972in" />
+    ![](./media/image23.png)
+
 
 ### Task 2: Create a Copilot with Gen AI Capabilities
 
 1.  Open Copilot studio and from top environment sections select **Dev
     One** environment.
 
-    <img src="./media/image24.png"
-style="width:6.26806in;height:2.84931in" />
+    ![](./media/image24.png)
+
 
 2.  Click on the **Create** button form the left navigation bar and then
     select **New Copilot** option.
 
-    <img src="./media/image25.png"
-style="width:6.26806in;height:2.65417in" />
+    ![](./media/image25.png)
+
 
 3.  Click on the **Skip to configure** and start manual configuration of
     copilot.
 
-    <img src="./media/image26.png"
-style="width:6.26806in;height:2.64306in" />
+    ![](./media/image26.png)
+
 
 4.  Enter the following details in the respected fields and click on the
     **Create** button.
@@ -99,16 +99,16 @@ style="width:6.26806in;height:2.64306in" />
         in SAP system and provide the product information as per the
         requirement and update the price of the product.
 
-    <img src="./media/image27.png"
-style="width:6.26806in;height:2.80069in" />
+    ![](./media/image27.png)
+
 
 5.  Click on the **Setting** form the top right corner and then select
     **Generative AI** option. In Generative AI setting select
     **Generative AI (Preview)** and select **Medium** content
     moderation. After the configuration click on the save button.
 
-    <img src="./media/image28.png"
-style="width:6.26806in;height:2.62222in" />
+    ![](./media/image28.png)
+
 
 ## Exercise 2: Create Power Automate Flow for SAP Integration
 
@@ -118,47 +118,47 @@ style="width:6.26806in;height:2.62222in" />
     from the top bar. After click on actions select **Add an action**
     button to create a new SAP action.
 
-    <img src="./media/image29.png"
-style="width:6.26806in;height:3.32153in" />
+    ![](./media/image29.png)
+
 
 2.  Scroll down select **Choose an action section** and click on
     **Create a new flow** button, it will redirect to power automate
     flow.
 
-    <img src="./media/image30.png"
-style="width:6.26806in;height:3.67847in" />
+    ![](./media/image30.png)
+
 
 3.  From top left corner rename the flow as **SAP Product Category**.
 
-    <img src="./media/image31.png"
-style="width:6.26806in;height:2.63056in" />
+    ![](./media/image31.png)
+
 
 4.  Click on the **Run a flow from copilot** and select **+ Add an
     input**.
 
-    <img src="./media/image32.png"
-style="width:6.26806in;height:2.74931in" />
+    ![](./media/image32.png)
+
 
 5.  In **+ Add an input** option select **Text** as type of input.
 
-    <img src="./media/image33.png"
-style="width:6.26806in;height:2.73333in" />
+    ![](./media/image33.png)
+
 
 6.  Enter **Product Input** in the input section.
 
-    <img src="./media/image34.png"
-style="width:6.26806in;height:2.38333in" />
+    ![](./media/image34.png)
+
 
 7.  Click on the **+** sign and select **Add an action** option.
 
-    <img src="./media/image35.png"
-style="width:6.26806in;height:2.65833in" />
+    ![](./media/image35.png)
+
 
 8.  In Add an action section enter **SAP OData** and select **Query
     OData entities.**
 
-    <img src="./media/image36.png"
-style="width:6.26806in;height:3.45417in" />
+    ![](./media/image36.png)
+
 
 9.  Enter the following Details in the Create a new connection section
     and then click on the **Create new button**.
@@ -174,127 +174,126 @@ style="width:6.26806in;height:3.45417in" />
 
     5.  **Password:** Enter the ES5 SAP Password which we created in Lab 1.
 
-    <img src="./media/image37.png"
-style="width:6.26806in;height:5.86736in" />
+    ![](./media/image37.png)
+
 
 10. In **OData Entity Name** select **Productset** and then click on
     **Show all.**
 
-    <img src="./media/image38.png"
-style="width:6.26806in;height:2.07153in" />
+    ![](./media/image38.png)
+
 
 11. In **\$Top** section enter **10,** which will return top 10 product.
 
-    <img src="./media/image39.png"
-style="width:6.26806in;height:1.36111in" />
+    ![](./media/image39.png)
+
 
 12. Click on the **Respond to Copilot** option and click on **Add an
     output** option.
 
-    <img src="./media/image40.png"
-style="width:6.26806in;height:2.51875in" />
+    ![](./media/image40.png)
+
 
 13. Select **Text** as type of output.
 
-    <img src="./media/image41.png"
-style="width:6.21721in;height:2.68357in" />
+    ![](./media/image41.png)
+
 
 14. Enter **Product Output** as output name and then enter the
     **string(body('Query_OData_entities'))** as the value of the output
     with the help of function. click on the Add button after entering the
     output query.
 
-    <img src="./media/image42.png" style="width:6.26806in;height:3.775in" />
+    ![](./media/image42.png)
 
 15. **Save** and **Publish** the copilot.
 
-    <img src="./media/image43.png"
-style="width:6.26806in;height:2.66111in" />
+    ![](./media/image43.png)
 
 16. Go back to copilot studio and click on the **Refresh**.
 
-    <img src="./media/image44.png"
-style="width:6.26806in;height:4.19931in" />
+    ![](./media/image44.png)
+
 
 ### Task 2: Create Power Automate Flow for Update Product
 
 1.  On the **Choose an action** window scroll down and click on the
     **Create a new flow.**
 
-    <img src="./media/image45.png"
-style="width:6.26806in;height:4.13819in" />
+    ![](./media/image45.png)
+
 
 2.  Rename the Flow Name as **Update Product Price.**
 
-    <img src="./media/image46.png"
-style="width:6.26806in;height:2.64514in" />
+    ![](./media/image46.png)
+
 
 3.  Click on the **Run a flow from copilot** and then select **+ Add an
     input.**
 
-    <img src="./media/image47.png"
-style="width:6.26806in;height:3.29722in" />
+    ![](./media/image47.png)
+
 
 4.  Select the type of user input as **Text**.
 
-    <img src="./media/image48.png"
-style="width:6.26806in;height:3.40069in" />
+    ![](./media/image48.png)
+
 
 5.  Rename the input name as **Product ID.**
 
-    <img src="./media/image49.png"
-style="width:6.26806in;height:3.12222in" />
+    ![](./media/image49.png)
+
 
 6.  Then again click on the + Add an input, select **Number** as input
     type and rename the input as **Update Price.**
 
-    <img src="./media/image50.png"
-style="width:6.26806in;height:3.01458in" />
+    ![](./media/image50.png)
+
 
 7.  Click on the **+** Icon and select **Add an action.**
 
-    <img src="./media/image51.png"
-style="width:6.26806in;height:2.49514in" />
+    ![](./media/image51.png)
+
 
 8.  Enter **SAP OData** in the Add an action search bar and click on
     **see more**.
 
-    <img src="./media/image52.png"
-style="width:6.26806in;height:4.15694in" />
+    ![](./media/image52.png)
+
 
 9.  Click on the **Update OData entity**. After click on the entity, it
     will connect automatically with SAP OData Connection which we create
     in **SAP Product Category** flow.
 
-    <img src="./media/image53.png"
-style="width:6.26806in;height:4.24653in" />
+    ![](./media/image53.png)
+
 
 10. Click on the OData Entity Name and select **ProductSet.**
 
-    <img src="./media/image54.png"
-style="width:6.26806in;height:2.03194in" />
+    ![](./media/image54.png)
+
 
 11. In the ProductID sections select **ProductID** with the help of
     dynamic content.
 
-    <img src="./media/image55.png"
-style="width:6.26806in;height:2.24236in" />
+    ![](./media/image55.png)
+
 
 12. Click on the **Advanced parameters** and select **Price**.
 
-    <img src="./media/image56.png"
-style="width:6.26806in;height:1.68819in" />
+    ![](./media/image56.png)
+
 
 13. In the price parameter enter **Update Price** with the help of
     dynamic content.
 
-    <img src="./media/image57.png"
-style="width:6.26806in;height:2.29306in" />
+    ![](./media/image57.png)
+
 
 14. Click on the **Save and draft** and then click on **Publish**.
 
-    <img src="./media/image58.png"
-style="width:6.26806in;height:2.56389in" />
+    ![](./media/image58.png)
+
 
 ## Exercise 3: Integrate Power Automate Flow with Copilot
 
@@ -303,19 +302,19 @@ style="width:6.26806in;height:2.56389in" />
 1.  Go back to copilot studio window and click on the **Refresh**
     button.
 
-    <img src="./media/image59.png"
-style="width:6.26806in;height:2.51597in" />
+    ![](./media/image59.png)
+
 
 2.  Scroll down choose an action window and select **SAP Product
     Category** flow.
 
-    <img src="./media/image60.png"
-style="width:6.26806in;height:3.21389in" />
+    ![](./media/image60.png)
+
 
 3.  Click on the next button.
 
-    <img src="./media/image61.png"
-style="width:6.26806in;height:3.85972in" />
+    ![](./media/image61.png)
+
 
 4.  In the Input Parameter click on the edit input button and add the
     description as given below and the click on save button.
@@ -326,16 +325,16 @@ Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers,
 Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors, MP3
 Players, Camcorders.
 
-    <img src="./media/image62.png"
-style="width:6.26806in;height:2.76528in" />
+    ![](./media/image62.png)
 
-    <img src="./media/image63.png"
-style="width:6.26806in;height:3.59861in" />
+
+    ![](./media/image63.png)
+
 
 5.  Click on the outputs and then select edit outputs.
 
-    <img src="./media/image64.png"
-style="width:6.26806in;height:1.25903in" />
+    ![](./media/image64.png)
+
 
 6.  Enter the given below given description and click on the save
     button.
@@ -344,99 +343,99 @@ style="width:6.26806in;height:1.25903in" />
 Return the result as table including following information: ProductID,
 Category, Name, Description and Price.
 
-    <img src="./media/image65.png"
-style="width:6.26806in;height:3.99375in" />
+    ![](./media/image65.png)
+
 
 7.  Click on the **Next** button and after that click on the **Finish**
     to complete the configuration.
 
-    <img src="./media/image66.png"
-style="width:6.26806in;height:4.01111in" />
+    ![](./media/image66.png)
 
-    <img src="./media/image67.png"
-style="width:6.26806in;height:3.83125in" />
+
+    ![](./media/image67.png)
+
 
 8.  Go to the action section and then select the SAP Product Category action.
 
-    <img src="./media/image68.png"
-style="width:6.26806in;height:2.09583in" />
+    ![](./media/image68.png)
+
 
 9.  Go to **Output** section and check the box **Respond to the user
     after running this action**. After checking the box click on the save
     button.
 
-    <img src="./media/image69.png"
-style="width:6.26806in;height:3.47361in" />
+    ![](./media/image69.png)
+
 
 10. Click on the Test Button place as the top right side and enter the
     prompt Notebooks in the respected field. It will return the connect
     request. Click on the connect to give permission. After select
     connect, it will redirect to connection window.
 
-    <img src="./media/image70.png"
-style="width:6.26806in;height:2.48958in" />
+    ![](./media/image70.png)
+
 
 11. In the Manage your connections window click on the connect button.
 
-    <img src="./media/image71.png"
-style="width:6.26806in;height:2.20278in" />
+    ![](./media/image71.png)
+
 
 12. Click on the three dots on SAP OData and select **SAP-Product-100**
     connection. After selecting the connection click on the Submit
     button.
 
-    <img src="./media/image72.png"
-style="width:6.26806in;height:4.30069in" />
+    ![](./media/image72.png)
+
 
 13. Flow is shown as connected in the Manage connections.
 
-    <img src="./media/image73.png"
-style="width:6.26806in;height:1.98681in" />
+    ![](./media/image73.png)
+
 
 ### Task 2: Create topic Product Update
 
 1.  Go to topic for the top bar and click on the **Add new topic** and
     then click on **From** **blank**.
 
-    <img src="./media/image74.png"
-style="width:6.26806in;height:1.63403in" />
+    ![](./media/image74.png)
+
 
 2.  Rename the topic as **Product Update**.
 
-    <img src="./media/image75.png"
-style="width:6.26806in;height:2.45625in" />
+    ![](./media/image75.png)
+
 
 3.  In the trigger node, Enter the below given description.
 
     > Update Product, Update Product Price, Update Price, Price Update
 
-    <img src="./media/image76.png"
-style="width:5.09489in;height:2.19464in" />
+    ![](./media/image76.png)
+
 
 4.  Below trigger node, add **Message Node.**
 
-    <img src="./media/image77.png"
-style="width:4.85042in;height:3.40029in" />
+    ![](./media/image77.png)
+
 
 5.  Enter the message in the Message Node which is given below.
 
     > Thank you for using our service. Please enter **Product ID** and
 **Update Price** in below given card.
 
-    <img src="./media/image78.png"
-style="width:4.68374in;height:1.80016in" />
+    ![](./media/image78.png)
+
 
 6.  Click on the + Sign below message node and add Ask with adaptive
     card node.
 
-    <img src="./media/image79.png"
-style="width:6.26806in;height:4.44444in" />
+    ![](./media/image79.png)
+
 
 7.  Click on the three dots on adaptive card and click on the
     properties.
 
-    <img src="./media/image80.png"
-style="width:6.26806in;height:2.85972in" />
+    ![](./media/image80.png)
+
 
 8.  Enter the below give code in the properties window and close the
     properties.
@@ -500,107 +499,107 @@ style="width:6.26806in;height:2.85972in" />
 
     ```
 
-    <img src="./media/image81.png"
-style="width:6.26806in;height:3.56389in" />
+    ![](./media/image81.png)
+
 
 9.  Below adaptive card output section is available, in output **section
     1** variable click on select a variable and then click on the create
     new, a new variable **Var1** is created.
 
-    <img src="./media/image82.png"
-style="width:6.26806in;height:2.44722in" />
+    ![](./media/image82.png)
+
 
 10. Repeat the same process for the next output Var2 is created.
 
-    <img src="./media/image83.png"
-style="width:4.51706in;height:2.6669in" />
+    ![](./media/image83.png)
+
 
 11. Go to variable from the top and select all right-side check box for
     all variables.
 
-    <img src="./media/image84.png"
-style="width:6.26806in;height:3.05694in" />
+    ![](./media/image84.png)
+
 
 12. Below adaptive card, click on + sign and select call an action, then
     select **Update Product** flow.
 
-    <img src="./media/image85.png"
-style="width:6.26806in;height:3.38542in" />
+    ![](./media/image85.png)
+
 
 13. In the Action select Var1 for Product ID and Var2 for Update Price.
 
-    <img src="./media/image86.png"
-style="width:6.26806in;height:3.06667in" />
+    ![](./media/image86.png)
 
-    <img src="./media/image87.png"
-style="width:5.84217in;height:3.34196in" />
+
+    ![](./media/image87.png)
+
 
 14. Below Action node, click on + sign and add Message node, in message
     node enter the flowing message. **Product Var1 price is updated.
     Thankyou.** Replace Var1 with Variable name Var1 with the help of
     {x} button.
 
-    <img src="./media/image88.png"
-style="width:6.26806in;height:2.79583in" />
+    ![](./media/image88.png)
+
 
 15. Click on the Test button and enter the prompt Update Price. Then
     fill in the Product ID (HT-1001) and price (1540), click on submit.
     After clicking on submit a message show to connect. Click on the
     connect.
 
-    <img src="./media/image89.png"
-style="width:6.26806in;height:4.69931in" />
+    ![](./media/image89.png)
+
 
 16. It will navigate to another window which manages the connections. Click
     on the connect button of Update Product Price.
 
-    <img src="./media/image90.png"
-style="width:6.26806in;height:1.86389in" />
+    ![](./media/image90.png)
+
 
 17. Click on the three dots and select connection SAP-Product-100 then
     click on submit button.
 
-    <img src="./media/image91.png"
-style="width:6.26806in;height:2.71458in" />
+    ![](./media/image91.png)
+
 
 18. After completing it shows connected.
 
-    <img src="./media/image92.png" style="width:6.26806in;height:2.075in" />
+    ![](./media/image92.png)
 
 19. Click on the publish button to save the copilot setting
 
-    <img src="./media/image93.png"
-style="width:5.0171in;height:2.01684in" />
+    ![](./media/image93.png)
+
 
 ## Exercise 4: Integrate Copilot with SAP
 
 1.  Go to Channels from the top bar which is placed next to Analytics
     and then click on **Microsoft Teams**.
 
-    <img src="./media/image94.png"
-style="width:6.26806in;height:3.62569in" />
+    ![](./media/image94.png)
+
 
 2.  Then click on the **Turn on Teams** button.
 
-    <img src="./media/image95.png"
-style="width:2.82224in;height:3.01735in" />
+    ![](./media/image95.png)
+
 
 3.  Now teams are connected successfully, now click on the **Open
     Copilot** a new window will open.
 
-    <img src="./media/image96.png"
-style="width:6.26806in;height:1.82431in" />
+    ![](./media/image96.png)
+
 
 4.  On the new window click on the Use the web app instead.
 
-    <img src="./media/image97.png"
-style="width:6.26806in;height:3.56736in" />
+    ![](./media/image97.png)
+
 
 5.  Now Teams app web app will open, click on the **Add** button to add
     the copilot. And then the chat bot is ready.
 
-    <img src="./media/image98.png"
-style="width:6.26806in;height:2.07014in" />
+    ![](./media/image98.png)
+
 
 ## Exercise : Test Copilot in teams.
 
@@ -613,24 +612,24 @@ connections. Click on connect and apply the same steps as we perform
 before. After connection created back to teams and then type prompt
 again.
 
-    <img src="./media/image99.png"
-style="width:6.26806in;height:0.35417in" />
+    ![](./media/image99.png)
+
 
 2.  It returns the information of the Notebooks from SAP System.
 
-    <img src="./media/image100.png"
-style="width:6.26806in;height:3.32222in" />
+    ![](./media/image100.png)
+
 
 3.  Then give another prompt, I want to update price of product.
 
-    <img src="./media/image101.png"
-style="width:6.26806in;height:0.57083in" />
+    ![](./media/image101.png)
+
 
 4.  Now it returns the adaptive card, enter Product ID HT-1001 and in
     price enter 1111 and then click on the submit.
 
-    <img src="./media/image102.png"
-style="width:4.10036in;height:2.14185in" />
+    ![](./media/image102.png)
+
 
     > **Note:** If prompted Additional permissions are required to run this
 action. To proceed, please select 'Connect', and review any missing
@@ -641,21 +640,21 @@ again.
 5.  After entering the Product ID and Price confirmation message
     appears.
 
-    <img src="./media/image103.png"
-style="width:4.43372in;height:0.76673in" />
+    ![](./media/image103.png)
+
 
 6.  To confirm the updation, go to <https://sapes5.sapdevcenter.com/> ,
     click on Fiori Launch, login with your User Id and Password, Click
     on manage product. Then in search bar type HT-1001 and then click
     go.
 
-    <img src="./media/image104.png"
-style="width:6.26806in;height:1.72014in" />
+    ![](./media/image104.png)
+
 
 7.  Now see the updated price of the product is 1111.
 
-    <img src="./media/image105.png"
-style="width:6.26806in;height:1.47778in" />
+    ![](./media/image105.png)
+
 
 ### Conclusion
 
