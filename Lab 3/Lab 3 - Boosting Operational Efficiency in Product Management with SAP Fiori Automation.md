@@ -40,40 +40,40 @@ increase accuracy, and improve overall productivity.
     left pane. Click **Desktop flows** then click **Install \>Power
     Automate for Desktop**.
 
-    <img src="./media/image2.png"
-style="width:6.26806in;height:1.86181in" />
+    ![](./media/image2.png)
+
 
 2.  Navigate to **File Explorer** and click **Downloads** from left pane
     then double click **Setup.Microsoft.PowerAutomate.exe**.
 
-    <img src="./media/image3.png" style="width:6.5in;height:1.72222in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image3.png)
+
 
 3.  Click **Next** on **Install Power Automate package** pane.
 
-    <img src="./media/image4.png"
-style="width:6.26806in;height:4.65764in" />
+    ![](./media/image4.png)
+
 
 4.  Click check box for **By selecting Install you agree to Microsoft’s
     terms of use**. Click **Install** on Installation details pane.
 
-    <img src="./media/image5.png"
-style="width:6.26806in;height:4.68333in" />
+    ![](./media/image5.png)
+
 
 5.  Click **Yes** on Do you want to allow this app to make changes to
     your device? dialog.
 
-    <img src="./media/image6.png" style="width:6.5in;height:3.36528in"
-alt="Graphical user interface, application Description automatically generated" />
+    ![](./media/image6.png)
+
 
 6.  Click **Launch app** on Installation successful pane.
 
-    <img src="./media/image7.png" style="width:6.26806in;height:4.7in" />
+    ![](./media/image7.png)
 
 7.  Sign in with your Admin tenant credentials.
 
-    <img src="./media/image8.png"
-style="width:6.26806in;height:7.64722in" />
+    ![](./media/image8.png)
+
 
 8.  You will be navigated to Power Automate for Desktop Home page.
 
@@ -81,28 +81,28 @@ style="width:6.26806in;height:7.64722in" />
 
 1.  Open the Power Automate Desktop icon from the Desktop.
 
-    <img src="./media/image9.png" style="width:2.75857in;height:3.62531in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image9.png)
+
 
 2.  From top bar select **Dev One** environment.
 
-    <img src="./media/image10.png" style="width:6.26806in;height:0.89653in"
-alt="A computer screen with a blue and white box Description automatically generated" />
+    ![](./media/image10.png)
+
 
 3.  To create a new flow, click on **+ New flow.**
 
-    <img src="./media/image11.png" style="width:6.26806in;height:3.31528in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image11.png)
+
 
 4.  Name the flow as **SAP Fiori Automation.** Click on **Create**.
 
-    <img src="./media/image12.png"
-style="width:6.26806in;height:3.95694in" />
+    ![](./media/image12.png)
+
 
 5.  The new flow gets created and opened.
 
-    <img src="./media/image13.png"
-style="width:6.26806in;height:3.73681in" />
+    ![](./media/image13.png)
+
 
 ### Task 3: Declare Input and Output variables
 
@@ -110,8 +110,8 @@ style="width:6.26806in;height:3.73681in" />
     pane, click on the **+** icon under **Input/output variables** and
     select **Input**.
 
-    <img src="./media/image14.png"
-style="width:6.26806in;height:3.75139in" />
+    ![](./media/image14.png)
+
 
 2.  On the New input variable pane, provide the following details and
     then click on **Save**.
@@ -125,14 +125,14 @@ style="width:6.26806in;height:3.75139in" />
     | Description       | SAP User ID to login to SAP Fiori |
     | Mark as Sensitive | Enable                            |
 
-    <img src="./media/image15.png" style="width:6.26806in;height:4.95in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image15.png)
+
 
 3.  Similarly, to add an input variable, click on **+sign** next to
     Input/output variables.
 
-    <img src="./media/image16.png"
-style="width:4.51742in;height:3.6856in" />
+    ![](./media/image16.png)
+
 
 4.  Add an input variable for Password with the following details.
 
@@ -145,19 +145,19 @@ style="width:4.51742in;height:3.6856in" />
     | Description       | Password to login to SAP Fiori |
     | Mark as Sensitive | Enable                         |
 
-    <img src="./media/image17.png" style="width:6.22554in;height:4.93376in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image17.png)
+
 
 5.  Now, we can see that there are two Input variables created and
     listed under the Variables pane on the right pane.
 
-    <img src="./media/image18.png" style="width:3.3856in;height:3.34372in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image18.png)
+
 
 6.  Now, click on the **+ icon** to add an output variable.
 
-    <img src="./media/image19.png"
-style="width:6.26806in;height:2.01597in" />
+    ![](./media/image19.png)
+
 
 7.  Fill in the details as below and click on **Save**.
 
@@ -168,8 +168,8 @@ style="width:6.26806in;height:2.01597in" />
     | External name | Result                |
     | Description   | Result of the process |
 
-    <img src="./media/image20.png" style="width:6.22554in;height:4.55039in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image20.png)
+
 
 ## Exercise 2: Add a sub flow for Exception Handling 
 
@@ -180,20 +180,20 @@ alt="A screenshot of a computer Description automatically generated" />
 2.  Create a **Subflow** by clicking on **SubFlows** -\> **New
     subflow.**
 
-    <img src="./media/image21.png"
-style="width:6.26806in;height:3.39931in" />
+    ![](./media/image21.png)
+
 
 3.  Name it as **ExceptionHandler** and then click on **Save**.
 
-    <img src="./media/image22.png" style="width:6.26806in;height:2.52083in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image22.png)
+
 
 4.  In the search bar of the Actions pane, type **Get last error** and
     double click on the action **Get last error** to add it to the
     **ExceptionHandler** subflow and click on **Save**.
 
-    <img src="./media/image23.png"
-style="width:6.26806in;height:3.48819in" />
+    ![](./media/image23.png)
+
 
 5.  In the search bar of the Actions pane, type **Set variable** and
     double click on the action **Set variable** to add the action to the
@@ -204,8 +204,8 @@ style="width:6.26806in;height:3.48819in" />
     | Variable | Click on NewVar, select the **x** symbol and select the output variable – **Processingresults** |
     | Value | **\## Exception \## - %LastError%** |
 
-    <img src="./media/image24.png"
-style="width:6.26806in;height:4.02083in" />
+    ![](./media/image24.png)
+
 
 6.  Now, add an action **Stop flow,** which will stop the flow if there
     is an error.
@@ -218,14 +218,14 @@ style="width:6.26806in;height:4.02083in" />
     | Error message | **%LastError%**               |
 
     
-    <img src="./media/image25.png"
-style="width:6.26806in;height:4.44931in" />
+    ![](./media/image25.png)
+
 
 7.  The **ExceptionHandler** subflow should now look as in the image
     below.
 
-    <img src="./media/image26.png" style="width:6.26806in;height:2.57847in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image26.png)
+
 
 ## Exercise 3: Add a subflow to logon to SAP Fiori 
 
@@ -234,18 +234,18 @@ alt="A screenshot of a computer Description automatically generated" />
 1.  Create a **Subflow** by clicking on **SubFlows** -\> **New
     subflow.**
 
-    <img src="./media/image27.png"
-style="width:6.26806in;height:4.02847in" />
+    ![](./media/image27.png)
+
 
 2.  Name the subflow as **SAP_Logon**. Click on **Save**.
 
-    <img src="./media/image28.png" style="width:6.26806in;height:2.59444in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image28.png)
+
 
 3.  From the search bar of the Actions pane, type in **launch**.
 
-    <img src="./media/image29.png" style="width:6.15278in;height:1.68056in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image29.png)
+
 
 4.  Drag and drop the **Launch new Microsoft Edge**/**Launch new
     Chrome** action on to the SAP_Logon subflow screen.
@@ -259,19 +259,19 @@ alt="A screenshot of a computer Description automatically generated" />
     | Initial URL | <https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html> |
     | Window state | **Normal** |
 
-    <img src="./media/image30.png" style="width:6.26806in;height:3.59167in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image30.png)
+
 
     > **Note:** You can use the browser of your choice from the list available
 under the Browser automation actions in the Power Automate.
 
-    <img src="./media/image31.png" style="width:3.30862in;height:3.21695in"
-alt="A screenshot of a browser Description automatically generated" />
+    ![](./media/image31.png)
+
 
 5.  Right click on the added action and select **Run from here**.
 
-    <img src="./media/image32.png" style="width:6.26806in;height:3.41319in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image32.png)
+
 
 6.  This opens the **Fiori login page** in a new Chrome browser.
 
@@ -279,20 +279,20 @@ alt="A screenshot of a computer Description automatically generated" />
 open on your browser. If opened, log out from the page and again run the
 action.
 
-    <img src="./media/image33.png" style="width:6.26806in;height:3.48264in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image33.png)
+
 
 7.  From here, we can record the series of events to login to the
     system. Click on **Recorder** on the Power Automate flow screen.
 
-    <img src="./media/image34.png" style="width:6.26806in;height:2.24722in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image34.png)
+
 
 8.  The Recorder gets opened. Have the **SAP Fiori login page** open and
     click on **Record** in Recorder pane.
 
-    <img src="./media/image35.png" style="width:6.26806in;height:3.62569in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image35.png)
+
 
 9.  Select the **User ID** field and enter the SAP User ID into that,
     Then click on **Password field** and enter SAP Password. In last
@@ -303,8 +303,8 @@ that you are clicking on is highlighted, to ensure that your action is
 being recorded by the recorder. (Like the Logon button is highlighted
 in the screenshot below).
 
-    <img src="./media/image36.png" style="width:6.26806in;height:3.05208in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image36.png)
+
 
 10. The sequence of events of logging into the system will get recorded
     by the recorder now.
@@ -313,28 +313,28 @@ alt="A screenshot of a computer Description automatically generated" />
     recorded value in the recorder. Click on Arrow next to **Text** and
     select **Variable**.
 
-    <img src="./media/image37.png" style="width:2.55856in;height:5.09211in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image37.png)
+
 
 12. Once Variable is selected, select **SAPUserID** from the variable
     names.
 
-    <img src="./media/image38.png" style="width:3.00859in;height:3.55031in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image38.png)
+
 
 13. Then change the variable name for the Password as **SAPPassword**.
 
 14. In the Recorder window, the recorded events should look similar to
     the events in the screenshot below. Click on **Done**.
 
-    <img src="./media/image39.png"
-style="width:6.26806in;height:4.34792in" />
+    ![](./media/image39.png)
+
 
 15. The subflow **SAP_Logon** should look similar to the one in the
     screenshot below. Click on **Save** icon to save the flow.
 
-    <img src="./media/image40.png" style="width:6.26806in;height:3.19832in"
-alt="A screenshot of a web page Description automatically generated" />
+    ![](./media/image40.png)
+
 
     > **Note:** If there is an extra Launch new chrome action is added, right
 click on it, and select Delete. There should be only one launch action.
@@ -343,50 +343,50 @@ click on it, and select Delete. There should be only one launch action.
     chrome** action from the **Power Automate** **SAP_Logon** sub flow
     to check if the flow is working fine.
 
-    <img src="./media/image41.png" style="width:6.26806in;height:2.91389in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image41.png)
+
 
 17. The flow would open a new Chrome browser, type in the **User** and
     **Password** details, click on the **Logon** button and opens up the
     **SAP Fiori**.
 
-    <img src="./media/image42.png" style="width:6.27172in;height:3.29038in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image42.png)
+
 
 18. Back in the Power Automate Desktop flow, click on the UI Elements
     icon from the right pane and select **Add UI element**.
 
-    <img src="./media/image43.png"
-style="width:6.26806in;height:5.70347in" />
+    ![](./media/image43.png)
+
 
 19. Open the chrome browser with the **SAP Fiori** open and capture the
     UI element **Purchase EPM**. To do this hover over the Purchase EPM
     Heading. Once you get it surrounded by the **Red box**, press **Ctrl
     button** and perform a **left click** at the same time.
 
-    <img src="./media/image44.png" style="width:5.62938in;height:2.68184in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image44.png)
+
 
 20. This will add an entry in the UI element pane. Click on **Done**.
 
-    <img src="./media/image45.png" style="width:2.96692in;height:5.16711in"
-alt="A white rectangular frame with black border Description automatically generated" />
+    ![](./media/image45.png)
+
 
 21. Back in the Power Automate screen, right click on the added UI
     element and select **Rename.** Rename it as **Heading**.
 
-    <img src="./media/image46.png" style="width:4.43372in;height:4.34204in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image46.png)
 
-    <img src="./media/image47.png" style="width:2.06597in;height:3.49874in"
-alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image47.png)
+
 
 22. Add an action, **wait for web page content** as the last step in the
     **SAP_Logon** subflow. Select **Heading** under the UI element
     option and click on **Save**.
 
-    <img src="./media/image48.png" style="width:6.26806in;height:3.67014in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image48.png)
+
 
 23. Click on **Save** icon to save the flow. Now, we have a flow which
     will open the SAP Fiori in a new Chrome browser, will logon to the
@@ -403,21 +403,21 @@ alt="A screenshot of a computer Description automatically generated" />
 1.  From the Power Automate flow page, click on the **Subflows** -\> **+
     New subflow**.
 
-    <img src="./media/image49.png" style="width:4.76841in;height:3.9984in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image49.png)
+
 
 2.  Type in the name of the subflow as **SearchProductBySupplier** and
     click on **Save**.
 
-    <img src="./media/image50.png" style="width:6.18387in;height:2.46688in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image50.png)
+
 
 ### Task 2: Capture UI Elements for Search by supplier
 
 1.  Click on the **UI element** and select **Add UI element**.
 
-    <img src="./media/image51.png"
-style="width:5.51714in;height:3.00859in" />
+    ![](./media/image51.png)
+
 
 2.  Now, we will open the browser in which the **SAP Fiori** is open and
     capture the **UI elements** that will be used in this flow.
@@ -430,8 +430,8 @@ style="width:5.51714in;height:3.00859in" />
     page again (this time we are clicking on it to navigate to the next
     page and then capture the other elements from there).
 
-    <img src="./media/image52.png" style="width:6.26806in;height:2.98889in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image52.png)
+
 
     > **Note:** For each of the element, we will first capture the UI element
 and then click on the same from the browser to get the flow of the
@@ -441,57 +441,57 @@ execution.
     element has been added to the UI element picker, click on the
     **Supplier ID** option from the web page again.
 
-    <img src="./media/image53.png" style="width:6.08232in;height:2.92795in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image53.png)
+
 
 6.  **Capture** the **Search box (Ctrl+left click)** option, Once the
     element has been added to the UI element picker, type in the
     **AVANTEL** in the Search bar.
 
-    <img src="./media/image54.png" style="width:6.26806in;height:5.09097in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image54.png)
+
 
 7.  **Capture** the **Search icon (Ctrl+left click)** option, Once the
     element has been added to the UI element picker, click on the
     **Search Icon** option from the web page again.
 
-    <img src="./media/image55.png" style="width:6.13867in;height:2.91427in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image55.png)
+
 
 8.  **Capture** the **Check Box (Ctrl+left click)** option, Once the
     element has been added to the UI element picker, click on the
     **Check box** option from the web page again.
 
-    <img src="./media/image56.png" style="width:6.13455in;height:2.85726in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image56.png)
+
 
 9.  **Capture** the **Select (Ctrl+left click)** option, Once the
     element has been added to the UI element picker, click on the
     **Select** option from the web page again.
 
-    <img src="./media/image57.png" style="width:4.43001in;height:3.67364in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image57.png)
+
 
 10. **Capture** the **Go (Ctrl+left click)** option, Once the element
     has been added to the UI element picker, click on the **Go** option
     from the web page again.
 
-    <img src="./media/image58.png" style="width:6.26806in;height:2.91875in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image58.png)
+
 
 11. The UI element picker should now have all these UI elements added.
     It should now look like the one in the screenshot below. Click on
     **Done** on the UI element picker.
 
-    <img src="./media/image59.png" style="width:2.7509in;height:4.10551in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image59.png)
+
 
 12. Then, right click on each of the element and **Rename** it for
     easier understanding. The elements will look like below after
     renaming.
 
-    <img src="./media/image60.png" style="width:4.24203in;height:5.35046in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image60.png)
+
 
 ### Task 3: Add actions to the flow
 
@@ -501,28 +501,28 @@ alt="A screenshot of a computer Description automatically generated" />
 2.  Add an action, **Click link on web page** and select **Manage
     Products** UI element. Leave the other defaults. Click on **Save**.
 
-    <img src="./media/image61.png" style="width:6.26806in;height:4.48472in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image61.png)
+
 
 3.  Add an action, **Click link on web page** and select **Supplier ID**
     UI element. Click on **Save**.
 
-    <img src="./media/image62.png" style="width:5.20627in;height:3.8052in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image62.png)
+
 
 4.  Add an action, **Click link on web page** and select **Search Box**
     UI element. Click on **Save**.
 
-    <img src="./media/image63.png" style="width:6.26806in;height:4.29861in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image63.png)
+
 
 5.  Add an action, **Populate text field on web page** and again select
     **Search Box** UI element. Under Text, type the Value to be searched
     for. Here we have used **AVANTEL**. This can be changed as per your
     preference. Click on **Save**.
 
-    <img src="./media/image64.png" style="width:6.26806in;height:3.62153in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image64.png)
+
 
     > **Note:** Instead of hard coding this value, we can also add an input
 variable and then use the variable name here.
@@ -530,44 +530,44 @@ variable and then use the variable name here.
 6.  Add an action, **Click link on web page** and select **Search icon**
     UI element. Click on **Save**.
 
-    <img src="./media/image65.png" style="width:6.26806in;height:4.23333in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image65.png)
+
 
 7.  Add a **Wait** Action. Enter the duration as **2,** to wait for 2
     seconds for the product to get loaded based on the Search text.
     Click on **Save**.
 
-    <img src="./media/image66.png" style="width:6.25888in;height:3.15861in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image66.png)
+
 
 8.  Add an action, **Send Keys**. Select **Tab** key from Insert
     **Special Keys -\> Misc -\> Tab**. Click on **Save**.
 
-    <img src="./media/image67.png" style="width:6.26806in;height:4.22569in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image67.png)
+
 
 9.  Add another **Send Keys** Action and select **Space** instead of
     Tab. Click on **Save**.
 
-    <img src="./media/image68.png" style="width:6.26806in;height:4.22569in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image68.png)
+
 
 10. Add an action, **Click link on web page** and select **Select** UI
     element.
 
-    <img src="./media/image69.png" style="width:6.26806in;height:4.36111in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image69.png)
+
 
 11. Add an action, **Click link on web page** and select **Go Button**
     UI element.
 
-    <img src="./media/image70.png" style="width:6.1672in;height:4.2587in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image70.png)
+
 
 12. The flow should now look as in the screenshot below.
 
-    <img src="./media/image71.png"
-style="width:6.26806in;height:4.44514in" />
+    ![](./media/image71.png)
+
 
 13. Add an action, **Extract data from web page**. Once added, with the
     Extract data from web page open in the Power Automate flow, **open**
@@ -577,21 +577,21 @@ style="width:6.26806in;height:4.44514in" />
 14. Right click on the column name (Image) and select **Extract entire
     HTML table**.
 
-    <img src="./media/image72.png" style="width:4.37618in;height:3.13498in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image72.png)
+
 
 15. Once the table is added, click on **Finish** in the **Extraction
     preview** pane.
 
-    <img src="./media/image73.png"
-style="width:5.67549in;height:5.46714in" />
+    ![](./media/image73.png)
+
 
 16. Back in the Power Automate, in the **Extract data from web page**
     pane select **Store data** mode as **Excel spreadsheet** and click
     on **Save**.
 
-    <img src="./media/image74.png" style="width:5.93385in;height:5.46714in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image74.png)
+
 
 17. Click on **Save** icon to save the flow. Now, we have a sub flow
     which will search for a specific supplier name and export all the
@@ -606,21 +606,21 @@ alt="A screenshot of a computer Description automatically generated" />
 
 2.  Click on **Subflows -\> + New subflow.**
 
-    <img src="./media/image75.png" style="width:4.21703in;height:3.67532in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image75.png)
+
 
 3.  In the **Add a subflow** pane, enter the name of the subflow as
     **SAP_Logoff.** Click on **Save**.
 
-    <img src="./media/image76.png"
-style="width:6.26806in;height:2.61181in" />
+    ![](./media/image76.png)
+
 
 4.  The created subflow gets opened in a new tab.
 
 5.  Open the UI Element pane and click on **Add UI element**.
 
-    <img src="./media/image77.png" style="width:4.59072in;height:3.84459in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image77.png)
+
 
 6.  **Capture** the **UI elements** to perform the **Log off** action
     from the browser.
@@ -630,18 +630,18 @@ alt="A screenshot of a computer Description automatically generated" />
     captured. Once captured, an entry will be made in the UI Element
     picker.
 
-    <img src="./media/image78.png" style="width:6.26806in;height:3.45903in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image78.png)
+
 
 8.  Capture the **close** button of the browser in the **Goodbye**
     screen.
 
-    <img src="./media/image79.png" style="width:6.26806in;height:3.1in" />
+    ![](./media/image79.png)
 
 9.  Click on **Done** in the UI element picker.
 
-    <img src="./media/image80.png"
-style="width:4.25037in;height:2.10852in" />
+    ![](./media/image80.png)
+
 
 ### Task 2: Rename UI Elements
 
@@ -651,14 +651,14 @@ style="width:4.25037in;height:2.10852in" />
 2.  Select the Profile Button **UI Element** that we captured and change
     its name to **Profile Button**.
 
-    <img src="./media/image81.png" style="width:4.1837in;height:4.80042in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image81.png)
+
 
 3.  After renaming, the list of the log off actions UI elements should
     be like the list in the screenshot below.
 
-    <img src="./media/image82.png"
-style="width:4.52539in;height:6.04219in" />
+    ![](./media/image82.png)
+
 
 ### Task 3: Add Actions to the subflow
 
@@ -666,27 +666,27 @@ style="width:4.52539in;height:6.04219in" />
     page** action to the **SAP_Logoff** subflow pane. Select the UI
     Element to be the **Profile Button**. Click on **Save**.
 
-    <img src="./media/image83.png"
-style="width:6.26806in;height:4.24375in" />
+    ![](./media/image83.png)
+
 
 2.  Next, add an action, **Send Keys**. Enter the given below text in
     **Text to send field** and then click on the **save** button
 
     > {Down}{Down}{Down}{Down}{Down}{Down}{Return}{Space}
 
-    <img src="./media/image84.png"
-style="width:6.26806in;height:3.99722in" />
+    ![](./media/image84.png)
+
 
 3.  Add an action, **Close web browser** and click on **Save** with the
     web browser instance value as **Browser**.
 
-    <img src="./media/image85.png" style="width:6.26806in;height:3.85694in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image85.png)
+
 
 4.  Now, the subflow should look like this.
 
-    <img src="./media/image86.png"
-style="width:6.26806in;height:2.94514in" />
+    ![](./media/image86.png)
+
 
 ## Exercise 6: Configure the Main flow
 
@@ -698,54 +698,54 @@ style="width:6.26806in;height:2.94514in" />
 3.  First in the Main flow, from the Actions pane, drag and drop add an
     action **On block error** into the Main flow tab.
 
-    <img src="./media/image87.png" style="width:6.26806in;height:3.46458in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image87.png)
+
 
 4.  Name the error block as **MainExceptionBlock**. Click on **+ New
     rule -\> Run subflow.**
 
-    <img src="./media/image88.png" style="width:6.26806in;height:4.41042in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image88.png)
+
 
 5.  In the Run subflow option that gets added, select
     **ExceptionHandler**. Click on **Save**.
 
-    <img src="./media/image89.png" style="width:6.26806in;height:4.44028in"
-alt="A screenshot of a computer error Description automatically generated" />
+    ![](./media/image89.png)
+
 
 6.  The Main flow will now look like this.
 
-    <img src="./media/image90.png" style="width:6.26806in;height:1.46597in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image90.png)
+
 
 7.  Next, add an action **Runsubflow.** Select SAP_Logon subflow from
     the drop down and click on **Save**.
 
-    <img src="./media/image91.png" style="width:6.26806in;height:3.09931in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image91.png)
 
-    <img src="./media/image92.png" style="width:6.22554in;height:3.17528in"
-alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image92.png)
+
 
 8.  Similarly, add the 2 more actions of **Run subflow** and select
     **SearchProductBySupplier** and **SAP_Logoff** in the same order.
 
 9.  Your main flow should now look like this.
 
-    <img src="./media/image93.png" style="width:6.26806in;height:2.90556in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image93.png)
+
 
 10. Click on **Save**.
 
-    <img src="./media/image94.png" style="width:6.26806in;height:2.85694in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image94.png)
+
 
 ## Exercise 7: Test the Flow
 
 1.  From the Main block, right click and select **Run from here**.
 
-    <img src="./media/image95.png" style="width:6.26806in;height:4.75208in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image95.png)
+
 
 2.  Observe the flow that does the following.
 
