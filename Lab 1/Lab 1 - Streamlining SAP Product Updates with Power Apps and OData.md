@@ -34,43 +34,40 @@ connector to automate the retrieval and updating of product data in SAP.
 
 ### Estimated Time: 45 min
 
-<br>
-
 ## Exercise 1: Create an SAP Account
 
 ### Task 1: Create an SAP Account
 
 1.  Log into the SAP website at +++https://www.sap.com+++ and click on the
     admin button.
+![](./media/image2.png)
 
-    ![](./media/image2.png)
 
-
-3.  Click on **Create your SAP account.**
+2.  Click on **Create your SAP account.**
 
     ![](./media/image3.png)
 
 
-4.  Fill in your details, select the checkbox for accepting the terms
+3.  Fill in your details, select the checkbox for accepting the terms
     and conditions and click on **Submit**.
 
     ![](./media/image4.png)
 
 
-5.  You will get the **Check your email and finalize your account**
+4.  You will get the **Check your email and finalize your account**
     screen.
 
     ![](./media/image5.png)
 
 
-6.  Open the email from the sender **SAP Universal ID - Notification**
+5.  Open the email from the sender **SAP Universal ID - Notification**
     in your registered mailbox and click on **Click to activate your
     account.**
 
     ![](./media/image6.png)
 
 
-7.  On the next screen, create and confirm the password, select the
+6.  On the next screen, create and confirm the password, select the
     check box to acknowledge the SAP Universal ID Terms of Use and then
     click on **Submit**.
 
@@ -80,12 +77,12 @@ connector to automate the retrieval and updating of product data in SAP.
     > **Note:** Make a note of this username and password for future use to
 access the SAP related pages.
 
-8.  You will land on the **Thank You** page.
+7.  You will land on the **Thank You** page.
 
     ![](./media/image8.png)
 
 
-9.  Close the Thank You screen.
+8.  Close the Thank You screen.
 
 ### Task 2: Create an account for Gateway Demo System
 
