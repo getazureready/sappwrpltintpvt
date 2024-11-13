@@ -35,6 +35,25 @@ To address these challenges, Contoso will use Microsoft Copilot Studio
 integrated with Power Automate to automate SAP queries and updates,
 ensuring accuracy and efficiency in operations.
 
+## Persona
+
+**David Brown – Developer**
+
+- Role: Develops automation flows using Microsoft Copilot Studio and Power Automate to integrate SAP with business processes.
+- Tasks: Configure Microsoft Copilot Studio and Power Automate to automate the retrieval and updating of product information and pricing in SAP. Implement automation flows to query product data and update prices in SAP using SAP OData connections. Integrate Microsoft Copilot Studio with Power Automate to enhance operational efficiency at Contoso Electronics.
+
+**Alice Johnson – SAP Administrator**
+
+- Role: Manages SAP system configurations, ensuring seamless integration with external applications like Power Platform.
+- Tasks: Ensure the SAP OData connection is correctly set up for the integration with Power Automate. Provide SAP user credentials to be used in the OData connection setup. Support troubleshooting of SAP-related errors and ensure smooth data flow between SAP and Power Automate.
+
+**Samantha Lee - Operations Manager**
+
+- Role: Oversees automation processes and validates their alignment with business objectives for efficient data management.
+- Tasks: Oversee the process of automating product information retrieval and pricing updates in SAP. Validate the functionality of the automation by testing different scenarios for product data retrieval and price updates in SAP. Ensure that the automated system meets the business needs for efficiency and accuracy.
+
+
+
 ### Estimated Time : 45 min
 <br>
 
