@@ -32,6 +32,18 @@ To address these challenges, Contoso Electronics will implement an
 integrated solution using Power Apps, Power Automate, and a custom OData
 connector to automate the retrieval and updating of product data in SAP.
 
+## Persona
+
+**David Brown – App Developer**
+
+- Role: Develops the Power App and integrates it with SAP. Develops the Power Automate flow to update SAP data.
+- Tasks: Sets up the SAP OData connection, designs the UI for product browsing and ordering, ensures smooth checkout process, and tests app functionality.Creates the “UpdateProduct” flow, integrates it with the Canvas App to trigger updates on SAP product information, and tests the flow for successful execution.
+
+**John Miller – Project Lead**
+
+- Role: Oversees the development and deployment of the app.
+- Tasks: Defines project requirements, coordinates with the team, and ensures the app meets business and customer needs.
+
 ### Estimated Time: 45 min
 
 ## Exercise 1: Create an SAP Account
