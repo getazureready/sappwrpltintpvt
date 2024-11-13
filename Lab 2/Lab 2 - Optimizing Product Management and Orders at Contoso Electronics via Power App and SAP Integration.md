@@ -2,34 +2,39 @@
 
 ## Objective
 
-Contoso Electronics, a leading retail company, is looking to streamline
-its product management process to improve efficiency and enhance
-customer experience. The company wants to create a Power App that
-integrates with its SAP backend system to provide employees with easy
-access to product information, manage inventory, and facilitate customer
-orders.
+Develop a Power App that integrates with an SAP system via the SAP OData connector to retrieve and display electronics product data. The app will enable customers to browse available products, view detailed information such as pricing and availability, and place orders seamlessly from the app. This solution aims to streamline the product discovery and ordering process, improving customer satisfaction and operational efficiency for Contoso Electronics.
 
 ### Solution Focus are
 
-Contoso Electronics, a leading retail company, aims to enhance its
-product management processes by developing a Power App integrated with
-its SAP backend. This solution focuses on streamlining product
-information management and order processing to improve operational
-efficiency and customer experience.
+Contoso Electronics offers a broad range of electronic products, and while customers have access to an online store, the experience is often fragmented. Customers face challenges in accessing accurate, up-to-date product information and a seamless ordering process.
 
-1.  **Power Apps Development:** The initiative will leverage a
-    user-friendly interface to enable employees to access and manage
-    real-time product data from SAP using OData connectors. Features
-    such as a dynamic product catalogue and detailed product insights will
-    empower the sales team to quickly find necessary information and
-    facilitate smoother order management.
+**The key challenges addressed include:**
 
-2.  **Real-Time Data Integration and Reporting:** By ensuring real-time
-    updates from the SAP system, the solution will enhance data accuracy
-    and provide robust reporting capabilities. This will allow the sales
-    and inventory management teams to track performance metrics, monitor
-    stock levels, and make informed decisions, ultimately leading to
-    faster order processing and improved customer satisfaction.
+- **Product Discovery:** Customers find it difficult to quickly browse and compare various products across different categories, slowing down purchasing decisions.
+- **Ordering Process:** Customers often face delays or friction in placing orders, resulting in abandoned carts and poor conversion rates.
+
+To address these challenges, Contoso Electronics will build a Power App connected to the SAP system using the SAP OData connector. This app will allow customers to:
+
+- Browse real-time product data pulled directly from SAP, ensuring they have access to up-to-date prices, availability, and product descriptions.
+- Easily add products to their cart and place orders directly through the app.
+- Enjoy a smooth, user-friendly interface that simplifies the product discovery and ordering process, leading to a more efficient customer journey.
+
+## Persona
+
+**David Brown – App Developer**
+
+- Role: Develops the Power App and integrates it with SAP.
+- Tasks: Sets up SAP OData connection, designs UI for product browsing and ordering, ensures smooth checkout process, tests app functionality.
+
+**Sarah Lee – Customer**
+
+- Role: A customer browsing products.
+- Tasks: Browses products, views details (price, availability), adds items to the cart, places an order. Adds products to cart, proceeds to checkout, submits the order.
+
+**John Miller – Project Lead**
+
+- Role: Oversees the development and deployment of the app.
+- Tasks: Defines project requirements, coordinates with the team, ensures the app meets business and customer needs.
 
 ### Estimated Time : 45 mins
 
