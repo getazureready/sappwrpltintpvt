@@ -1,20 +1,42 @@
 # Lab 3 Install and set up the SAP Setup Assistant
 
-## Objective: 
+## Objective
 
-This lab is designed to guide participants through the
-process of setting up and configuring the SAP Setup Assistant within the
-Microsoft Power Platform environment. Participants will learn how to
-establish necessary connections, install the SAP Setup Assistant, update
-connection references, enable cloud flows, and access the SAP Setup
-Assistant canvas app. This lab provides a hands-on approach to preparing
-the Power Platform environment for integration with SAP, enabling
-participants to connect to various services and configure essential
-settings.
+The objective of this lab is to guide participants through the process of setting up critical connections within the Power Platform environment to ensure seamless SAP integration. Participants will configure connections, install the SAP Setup Assistant, manage connection references, activate cloud flows, and utilize the SAP Setup Assistant app to enable efficient SAP integration and automation for Contoso Electronics.
 
-## Solution Foucs Area
+## Solution Focus Area
 
-This lab focuses on setting up the SAP Setup Assistant in Power Platform. It covers creating connections to essential services, installing the app, updating connection references, enabling cloud flows, and using the canvas app to streamline SAP integration processes.
+Contoso Electronics faces challenges in efficiently managing integrations and automating workflows between Power Platform and SAP systems. The company’s internal processes rely on real-time data synchronization, connection management, and the automation of repetitive tasks, but the current systems often lead to inefficiencies and manual errors.
+
+#### Key challenges include:
+
+- Connection Configuration: Manually setting up each individual connection to SAP and other platforms is time-consuming and error-prone.
+- Automation of Workflows: Many internal processes that involve SAP data lack automation, leading to increased manual intervention.
+- System Integration: Ensuring that all the required systems (SAP, Office 365, Power Automate) work together seamlessly, improving data flow and operational efficiency.
+
+**To address these challenges, Contoso Electronics will:**
+
+- Set up and configure essential connections, including Microsoft Dataverse, SAP, Office 365, and Power Automate connectors.
+- Install the SAP Setup Assistant from Microsoft AppSource to simplify the integration process.
+- Activate cloud flows to automate processes, eliminating the need for manual intervention and improving workflow efficiency.
+- This solution will help Contoso Electronics streamline its operations by improving connectivity, automating tasks, and ensuring real-time SAP data access.
+
+## Persona
+
+**David Headsoon – Power Platform Administrator**
+
+- Role: David is responsible for setting up and managing connections within the Power Platform environment. He ensures that all integrations, including SAP and Office 365, are properly configured and functioning.
+- Tasks: David will create and configure various connections, including Microsoft Dataverse, Power Automate, and SAP. He will install the SAP Setup Assistant, update connection references, and turn on cloud flows to ensure smooth integration.
+
+**Paula Mathew – Business Analyst / App Maker**
+
+- Role: Paula is a business analyst who will be utilizing the configured connections and activated cloud flows to build applications and automate business workflows.
+- Tasks: Paula will use the SAP Setup Assistant app to streamline data access and automate processes. She will rely on the configured connections to build apps that leverage SAP data for business operations, improving internal efficiency and decision-making.
+
+**John Miller – Project Lead**
+
+- Role: John oversees the entire integration project, ensuring that all configurations meet the business requirements and the system functions as expected.
+- Tasks: John defines the project scope, ensures that the system meets business needs, coordinates with Ravi and Asha, and confirms the successful activation of all cloud flows. He will also verify that the SAP Setup Assistant app is fully operational and the integrations are working as intended.
 
 **Estimated Time:** 20 mins
 
