@@ -29,6 +29,18 @@ implement Power Automate Desktop to automate the product search and
 report generation process. The automation will reduce manual effort,
 increase accuracy, and improve overall productivity.
 
+## Persona
+
+**David Brown – Developer**
+
+- Role: Designs and implements Power Automate Desktop flows.
+- Task: Create subflows for exception handling, log into SAP Fiori, and automate the product search by supplier.
+
+**John Miller – Project Lead**
+
+- Role: Oversees the development process and manages the project.
+- Task: Ensure flow design aligns with project goals, manage timelines, and review the functionality and performance of the automation.
+
 ### Estimated Time: 60 min
 
 ## Exercise 1: Create a flow and declare the variables
