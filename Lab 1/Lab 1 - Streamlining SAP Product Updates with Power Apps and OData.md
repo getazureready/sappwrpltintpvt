@@ -482,7 +482,7 @@ access the SAP related pages.
     ![](./media/image66.png)
 
 
-2.  Navigate to Tree view, Go to components select **UpdateButton** button and go to Properties --> Advanced option, In Advanced option enter the below given formula in **OnSelect**.
+2.  Navigate to Tree view, Go to components select **UpdateButton** button under **ProductBox** and go to Properties --> Advanced option, In Advanced option enter the below given formula in **OnSelect**.
 
     +++UpdateProduct.Run(*ProductBox*.Product.ProductID,*ProductNameTB*.Text,*DescriptionTB*.Text,*ProductBox*.Product.\_\_metadata.etag,*PriceTB*.Text)+++
 
@@ -501,17 +501,14 @@ access the SAP related pages.
 
 ### Task 1: App Testing
 
-1.  Click on **Play**.
+1.  Go to Tree View and Select Screens, Click on **Play**.
 
     ![](./media/image69.png)
 
 
-    > Select the product, **10” Portable DVD player.** Change the Price on
-the right-side pane of the app to **349.99** from 449.99. Click on the
-**Tick Mark (UpdateButton)**. This action should trigger the
-**UpdateProducts** Power Automate flow.
+2. Select the product, **10” Portable DVD player**, click on the **Pencil** Icon, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
 
-    ![](./media/image70.png)
+    ![](./media/image69.1.png)
 
 
 ### Task 2: Check the flow and updates
