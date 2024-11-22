@@ -492,9 +492,9 @@ access the SAP related pages.
 
 
 3.  Click on **Save** and then click on the **Screens** tab under the
-    **Tree view**.
+    **Tree view** and then click on **ProductDetailsScreen**.
 
-     ![](./media/image68.png)
+     ![](./media/image68.1.png)
 
 
 ## Exercise 4: Test and check the App and Flow
@@ -506,9 +506,9 @@ access the SAP related pages.
     ![](./media/image69.png)
 
 
-2. Select the product, **10” Portable DVD player**, click on the **Pencil** Icon, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
+2. Select the product, **10” Portable DVD player**, Change the Price on the right-side pane of the app to **349.99** from 449.99. Click on the **Tick Mark (UpdateButton)**. This action should trigger the **UpdateProducts** Power Automate flow.
 
-    ![](./media/image69.1.png)
+    ![](./media/image70.png)
 
 
 ### Task 2: Check the flow and updates
