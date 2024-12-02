@@ -76,7 +76,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image7.png)
 
 
-8.  After successfully installation close the tab.
+8.  After successfully installation **close** the window.
 
     ![](./media/image8.png)
 
@@ -117,7 +117,7 @@ increase accuracy, and improve overall productivity.
 
 ## Task 3: Declare Input and Output variables
 
-1.  From the right-side pane, select second icon {**X}** to open
+1.  From the right-side pane, select second icon **{X}** to open
     Variables pane, click on the **+ icon** under Input/output variables
     and select **Input**.
 
@@ -125,7 +125,7 @@ increase accuracy, and improve overall productivity.
 
 
 2.  On the New input variable pane, enter the following details and then
-    click on Save.
+    click on **Save**.
 
 | **Property**      | **Value**                                         |
 |-------------------|---------------------------------------------------|
@@ -187,12 +187,12 @@ increase accuracy, and improve overall productivity.
 
 1.  We will add Exception handling to handle scenarios like some window
     is not available or any UI click event failure and so on. Create a
-    Subflow by clicking on SubFlows 🡪 New subflow.
+    Subflow by clicking on **SubFlows 🡪 New subflow**.
 
     ![](./media/image22.png)
 
 
-2.  Name it as +++ExceptionHandler+++ and then click on Save.
+2.  Name it as +++ExceptionHandler+++ and then click on **Save**.
 
     ![](./media/image23.png)
 
@@ -217,7 +217,7 @@ increase accuracy, and improve overall productivity.
 
 
 5.  Now, add an action +++Stop flow+++, which will stop the flow if
-    there is an error. Fill in the details as below and click on Save.
+    there is an error. Fill in the details as below and click on **Save**.
 
 | **Property**  | **Value**                     |
 |---------------|-------------------------------|
@@ -237,7 +237,7 @@ increase accuracy, and improve overall productivity.
 
 ## Task 1: Create Subflow and Actions to the Logon_subflow
 
-1.  Create a Subflow by clicking on SubFlows 🡪 New subflow.
+1.  Create a Subflow by clicking on **SubFlows 🡪 New subflow**.
 
     ![](./media/image28.png)
 
@@ -251,7 +251,7 @@ increase accuracy, and improve overall productivity.
     ![](./media/image30.png)
 
 
-4.  Double click on the Launch new Microsoft Edge action on to the
+4.  Double click on the **Launch** **new** **Microsoft** **Edge** action on to the
     SAP_Logon subflow screen. Under Launch new Microsoft Edge, provide
     the following details and then click on Save.
 
@@ -312,12 +312,12 @@ highlighted in the screenshot below).
 ![](./media/image38.png)
 
 9.  After recording, click on **Pause** button place at top and look for
-    the recorded value in the recorder. Click on Arrow next to Text and
+    the recorded value in the recorder. Click on **Arrow** next to Text and
     select **Variable**.
 
     ![](./media/image39.png)
 
-10. Once Variable is selected, click on {X} select SAPUserID from the
+10. Once Variable is selected, click on **{X}** select **SAPUserID** from the
     variable names.
 
     ![](./media/image40.png)
@@ -354,13 +354,13 @@ highlighted in the screenshot below).
 
 
 15. The flow would open a new edge browser, type in the User and
-    Password details, click on the Logon button and opens the SAP Fiori.
+    Password details, click on the **Logon** button and opens the SAP Fiori.
 
     ![](./media/image46.png)
 
 
 16. Back in the Power Automate Desktop flow, click on the UI Elements
-    icon from the right pane and select Add UI element.
+    icon from the right pane and select **Add UI element.**
 
     ![](./media/image47.png)
 
@@ -380,7 +380,7 @@ click**.
 
 
 18. Back in the Power Automate screen, right click on the added UI
-element and select Rename. Rename it as +++Heading+++.  
+element and select **Rename**. Rename it as +++Heading+++.  
 
     ![](./media/image50.png)
 
@@ -388,8 +388,8 @@ element and select Rename. Rename it as +++Heading+++.
 
 
 18. Add an action, +++wait for web page content+++ as the last step in
-    the SAP_Logon subflow. Select Heading under the UI element option
-    and click on Save.
+    the SAP_Logon subflow. Select **Heading** under the UI element option
+    and click on **Save**.
 
     ![](./media/image52.png)
 
@@ -410,20 +410,20 @@ element and select Rename. Rename it as +++Heading+++.
 
 ## Task 1: Add Sub Workflow
 
-1.  From the Power Automate flow page, click on the Subflows - + New
-    subflow.
+1.  From the Power Automate flow page, click on the **Subflows** --> **+ New
+    subflow**.
 
     ![](./media/image54.png)
 
 
 2.  Type in the name of the subflow as +++SearchProductBySupplier+++ and
-    click on Save.
+    click on **Save**.
 
     ![](./media/image55.png)
 
 ## Task 2: Capture UI Elements for Search by supplier
 
-1.  Click on the UI element and select Add UI element.
+1.  Click on the **UI element** and select **Add** **UI** **element**.
 
     ![](./media/image56.png)
 
@@ -432,9 +432,9 @@ element and select Rename. Rename it as +++Heading+++.
     capture the UI elements that will be used in this flow. To capture
     the UI elements, select CTRL+left click together.
 
-    First, capture the Manage Products (Ctrl+left click) option in the SAP
+    First, capture the **Manage** **Products** (Ctrl+left click) option in the SAP
     Fiori page. Once the element has been added to the UI element picker,
-    click on the Manage Products option from the web page again (this time
+    click on the **Manage** **Products** option from the web page again (this time
     we are clicking on it to navigate to the next page and then capture
     the other elements from there).
 
@@ -444,41 +444,41 @@ element and select Rename. Rename it as +++Heading+++.
 and then click on the same from the browser to get the flow of the
 execution.
 
-3.  Capture the Supplier ID (Ctrl+left click) option, Once the element
-    has been added to the UI element picker, click on the Supplier ID
+3.  Capture the **Supplier** **ID** (Ctrl+left click) option, Once the element
+    has been added to the UI element picker, click on the **Supplier** **ID**
     option from the web page again.
 
     ![](./media/image58.png)
 
 
-4.  Capture the Search box (Ctrl+left click) option, Once the element
+4.  Capture the **Search** **box** (Ctrl+left click) option, Once the element
     has been added to the UI element picker, type in the +++AVANTEL+++
     in the Search bar.
 
     ![](./media/image59.png)
 
-5.  Capture the Search icon (Ctrl+left click) option, Once the element
-    has been added to the UI element picker, click on the Search Icon
+5.  Capture the **Search** **icon** (Ctrl+left click) option, Once the element
+    has been added to the UI element picker, click on the **Search** **Icon**
     option from the web page again.
 
     ![](./media/image60.png)
 
-6.  Capture the Check Box (Ctrl+left click) option, Once the element has
-    been added to the UI element picker, click on the Check box option
+6.  Capture the **Check** **Box** (Ctrl+left click) option, Once the element has
+    been added to the UI element picker, click on the **Check** **box** option
     from the web page again.
 
     ![](./media/image61.png)
 
 
-7.  Capture the Select (Ctrl+left click) option, Once the element has
-    been added to the UI element picker, click on the Select option from
+7.  Capture the **Select** (Ctrl+left click) option, Once the element has
+    been added to the UI element picker, click on the **Select** option from
     the web page again.
 
     ![](./media/image62.png)
 
 
-8.  Capture the Go (Ctrl+left click) option, Once the element has been
-    added to the UI element picker, click on the Go option from the web
+8.  Capture the **Go** (Ctrl+left click) option, Once the element has been
+    added to the UI element picker, click on the **Go** option from the web
     page again.
 
     ![](./media/image63.png)
@@ -512,28 +512,28 @@ execution.
 ## Task 3: Add actions to the flow
 
 1.  Now, we will add the elements that were captured in the Task 2
-    above, to the SearchProductBySupplier subflow.
+    above, to the **SearchProductBySupplier** **subflow**.
 
-2.  Add an action, +++Click link on web page+++ and select Manage
-    Products UI element. Leave the other defaults. Click on Save.
+2.  Add an action, +++Click link on web page+++ and select **Manage**
+    **Products** UI element. Leave the other defaults. Click on **Save**.
 
     ![](./media/image66.png)
 
 
-3.  Add an action, +++Click link on web page+++ and select Supplier ID
-    UI element. Click on Save.
+3.  Add an action, +++Click link on web page+++ and select **Supplier** **ID**
+    UI element. Click on **Save**.
 
     ![](./media/image67.png)
 
 
-4.  Add an action, +++Click link on web page+++ and select Search Box UI
-    element. Click on Save.
+4.  Add an action, +++Click link on web page+++ and select **Search** **Box** UI
+    element. Click on **Save**.
 
     ![](./media/image68.png)
 
 
 5.  Add an action, +++Populate text field on web page+++ and again
-    select Search Box UI element. Under Text, type the Value to be
+    select **Search** **Box** UI element. Under Text, type the Value to be
     searched for. Here we have used +++AVANTEL+++. This can be changed
     as per your preference. Click on **Save**.  
 
@@ -542,37 +542,37 @@ execution.
     > Note: Instead of hard coding this value, we can also add an input
     variable and then use the variable name here.
 
-6.  Add an action, +++Click link on web page+++ and select Search icon
-    UI element. Click on Save.
+6.  Add an action, +++Click link on web page+++ and select **Search** icon
+    UI element. Click on **Save**.
 
     ![](./media/image70.png)
 
 
-7.  Add a Wait Action. Enter the duration as +++2+++ to wait for 2
+7.  Add a **Wait** Action. Enter the duration as +++2+++ to wait for 2
     seconds for the product to get loaded based on the Search text.
-    Click on Save.  
+    Click on **Save**.  
 
     ![](./media/image71.png)
 
-8.  Add an action, +++Send Keys+++. Select Tab key from Insert Special
-    Keys - Misc - Tab. Click on Save.  
+8.  Add an action, +++Send Keys+++. Select **Tab** key from Insert Special
+    Keys - **Misc** --> **Tab**. Click on Save.  
 
     ![](./media/image72.png)
 
 
-9.  Add another +++Send Keys+++ Action and select Space instead of Tab.
+9.  Add another +++Send Keys+++ Action and select **Space** instead of Tab.
     Click on Save.  
 
     ![](./media/image73.png)
 
 
-10. Add an action, +++Click link on web page+++ and select Select UI
+10. Add an action, +++Click link on web page+++ and select **Select** UI
     element.  
 
     ![](./media/image74.png)
 
 
-11. Add an action, +++Click link on web page+++ and select Go Button UI
+11. Add an action, +++Click link on web page+++ and select **Go** Button UI
     element.  
 
     ![](./media/image75.png)
@@ -588,25 +588,25 @@ execution.
     the browser in which we have the selected list of products on the
     SAP Fiori.
 
-14. Right click on the column name (Image) and select Extract entire
-    HTML table.  
+14. Right click on the column name (**Image**) and select **Extract** **entire**
+    **HTML** **table**.  
 
     ![](./media/image77.png)
 
 
-15. Once the table is added, click on Finish in the Extraction preview
+15. Once the table is added, click on **Finish** in the Extraction preview
     pane.  
 
     ![](./media/image78.png)
 
 
 16. Back in the Power Automate, in the Extract data from web page pane
-    select Store data mode as Excel spreadsheet and click on Save.  
+    select Store data mode as Excel spreadsheet and click on **Save**.  
 
     ![](./media/image79.png)
 
 
-17. Click on Save icon to save the flow. Now, we have a sub flow which
+17. Click on **Save** icon to save the flow. Now, we have a sub flow which
     will search for a specific supplier name and export all the products
     of the supplier into an Excel.
 
@@ -619,13 +619,13 @@ execution.
     ![](./media/image80.png)
 
 2.  In the +++Add a subflow+++ pane, enter the name of the subflow as
-    +++SAP_Logoff+++ Click on Save.  
+    +++SAP_Logoff+++ Click on **Save**.  
 
     ![](./media/image81.png)
 
 
 3.  The created subflow gets opened in a new tab. Open the UI Element
-    pane and click on Add UI element.
+    pane and click on **Add UI element**.
 
 
     ![](./media/image82.png)
@@ -633,7 +633,7 @@ execution.
 
 4.  Capture the UI elements to perform the Log off action from the
     browser. Capture the P – Profile button from the top right corner of
-    the browser. To capture, press Ctrl+Left click on the item to be
+    the browser. To capture, press **Ctrl+Left** click on the item to be
     captured. Once captured, an entry will be made in the UI Element
     picker.
 
@@ -649,7 +649,7 @@ execution.
 ## Task 2: Rename UI Elements
 
 1.  Click on the added UI element one by one and change the name for
-    each of them. Select the Profile Button UI Element that we captured
+    each of them. Select the **Profile** Button UI Element that we captured
     and change its name to +++Profile Button+++.
 
     ![](./media/image85.png)
@@ -663,19 +663,19 @@ execution.
 ## Task 3: Add Actions to the subflow
 
 1.  From the Actions pane, Search and select +++Click link on web
-    page+++ action to the SAP_Logoff subflow pane. Select the UI Element
-    to be the Profile Button. Click on Save.
+    page+++ action to the SAP_Logoff subflow pane. Select the **UI Element**
+    to be the **Profile** Button. Click on **Save**.
 
     ![](./media/image87.png)
 
 2.  Next, add an action, +++Send Keys+++. Enter the given below text in
-    Text to send field and then click on the save button  
+    Text to send field and then click on the **save** button  
     +++{Down}{Down}{Down}{Down}{Down}{Down}{Return}{Space}+++  
 
     ![](./media/image88.png)
 
 
-3.  Add an action, +++Close web browser+++ and click on Save with the
+3.  Add an action, +++Close web browser+++ and click on **Save** with the
     web browser instance value as Browser.  
 
     ![](./media/image89.png)
@@ -696,13 +696,13 @@ execution.
     ![](./media/image91.png)
 
 
-3.  Name the error block as +++MainExceptionBlock+++ . Click on + New
-    rule - Run subflow.
+3.  Name the error block as +++MainExceptionBlock+++ . Click on + **New**
+    **rule** - **Run** **subflow**.
 
     ![](./media/image92.png)
 
 
-4.  In the Run subflow option that gets added, select ExceptionHandler.
+4.  In the Run subflow option that gets added, select **ExceptionHandler**.
     Click on Save.
 
     ![](./media/image93.png)
@@ -713,7 +713,7 @@ execution.
     ![](./media/image94.png)
 
 
-6.  Next, add an action +++Run subflow+++ . Select SAP_Logon subflow
+6.  Next, add an action +++Run subflow+++ . Select **SAP_Logon** subflow
     from the drop down and click on Save.  
 
     ![](./media/image95.png)
@@ -723,7 +723,7 @@ execution.
 
 
 7.  Similarly, add the 2 more actions of Run subflow and select
-    SearchProductBySupplier and SAP_Logoff in the same order.
+   **SearchProductBySupplier** and **SAP_Logoff** in the same order.
 
 8.  Your main flow should now look like this.  
 
@@ -731,7 +731,7 @@ execution.
 
 
 
-9.  Click on Save.  
+9.  Click on **Save**.  
 
     ![](./media/image98.png)
 
@@ -747,23 +747,12 @@ execution.
 2.  Observe the flow that does the following.
 
     1. Opens the SAP Fiori URL in a new edge browser.
-
-
     2. Logs into the system providing the username and password.
-
-
     3. Clicks on the Manage Products page.
-
-
     4. Searches for a specific Supplier and gets the list of products
         of the supplier.
-
     5. Exports the data to an excel sheet.
-
-
     6. Logs off from the system.
-
-
     7. Closes the browser.
 
 **Conclusion**
