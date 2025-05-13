@@ -422,14 +422,14 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image57.png)
 
-10. Repeat the same process for the next output **Var2** is created.
+10. Repeat the same process for the next output, **Var2** is created.
 
 - ![](./media/image58.png)
 
-11. Go to variable from the top and select all right-side check box for
+11. Go to the variable from the top and select all the right-side check boxes for
     all variables.
 
-    **Note**: If the variable option is not visible, click on the ellipsis icon Next to Save button and then select **Variable**
+    **Note**: If the variable option is not visible, click on the ellipsis icon Next to the Save button and then select **Variable**
 
 - ![](./media/image59.png)
 
@@ -452,14 +452,14 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image63.png)
 
-15. From top right corner, click on the **Save** button.
+15. From the top right corner, click on the **Save** button.
 
 - ![](./media/image64.png)
 
 16. Click on the **Test** button and enter the prompt +++Update
     Price+++. Then fill in the Product ID +++HT-1001+++ and price
-    +++1540+++, click on **Submit**. After clicking on submit a message
-    show to connect. Click on the **Connect**.
+    +++1540+++, click on **Submit**. After clicking on submit, a message
+    appears to connect. Click on the **Connect**.
 
 - ![](./media/image65.png)
 
@@ -468,16 +468,16 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image66.png)
 
-18. Click on the three dots and select connection SAP-Product-100 then
-    click on **submit** button.
+18. Click on the three dots and select connection SAP-Product-100, then
+    click on the **submit** button.
 
 - ![](./media/image67.png)
 
-19. After completing it shows connected.
+19. After completing, it shows connected.
 
 - ![](./media/image68.png)
 
-20. Go back to copilot window and Click on the **publish** button to
+20. Go back to the copilot window and click on the **publish** button to
     save the copilot setting
 
 - ![](./media/image69.png)
@@ -494,7 +494,7 @@ ensuring accuracy and efficiency in operations.
 
 - 
 
-3.  It returns the information of the Notebooks from SAP System.
+3.  It returns the information about the Notebooks from the SAP System.
 
 - ![](./media/image72.png)
 
@@ -507,7 +507,7 @@ ensuring accuracy and efficiency in operations.
 
 - ![](./media/image74.png)
 
-6.  After entering the Product ID and Price confirmation message
+6.  After entering the Product ID, and Price confirmation message
     appears.
 
 - ![](./media/image75.png)
@@ -515,11 +515,11 @@ ensuring accuracy and efficiency in operations.
 7.  To confirm the updation, go to
     +++https://sapes5.sapdevcenter.com/+++, **login** with your SAP User Id and Password,, click on Fiori Launch,
      Click on **Manage
-    product**. Then in search bar type +++HT-1001+++ and then click go.
+    product**. Then in the search bar type +++HT-1001+++ and then click go.
 
 - ![](./media/image76.png)
 
-8.  Now see the updated price of the product is 1111.
+8.  Now, see the updated price of the product is 1111.
 
 - ![](./media/image77.png)
 
