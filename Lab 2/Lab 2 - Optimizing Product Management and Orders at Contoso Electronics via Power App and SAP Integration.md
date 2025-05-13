@@ -95,30 +95,34 @@ To address these challenges, Contoso Electronics will build a Power App connecte
 
 ### Task 1: Create Contoso Power apps
 
-1.  From the left-hand navigation bar select on the **+ Create** and
-    then select **Blank app.**
+1.  From the left-hand navigation bar click on the **+ Create** and then select **Start with a blank canvas**.
 
-    ![](./media/image12.png)
-
-
-2.  Then create on **Create** button in the Blank canvas app and start
-    creating Contoso power app.
-
-    ![](./media/image13.png)
+    ![](./media/Picture1.png)
 
 
-3.  In the App name enter +++**Contoso Product App**+++, select **Tablet** as
-    format and then click on **Create**.
+2.  Then click on **Responsive and start creating app**
 
-    ![](./media/image14.png)
+    ![](./media/Picture2.png)
 
+3.	Welcome to Power Apps Studio window will open click on **Skip**.
 
-4.  Welcome to Power Apps Studio window will open click on **Skip**.
-
-    ![](./media/image15.png)
+    ![](./media/Picture3.png)
 
 
-5.  Navigate to **Tree view**, click on three dots on **Screen 1** (…)
+4.	Click on the **New Screen** and select **Blank Screen**
+
+    ![](./media/Picture4.png)
+
+5.	Click on the **Screen 1 (…)** and **Delete** the screen.
+
+    ![](./media/Picture5.png)
+
+6. Click on the **Save** button from top and enter **Contoso Product App** as name of the app and select **Save**.
+
+    ![](./media/Picture6.png)
+
+
+6.  Navigate to **Tree view**, click on three dots on **Screen 2** (…)
     and the select **Rename**. Enter the name as +++**Product List**+++
 
     ![](./media/image16.png)
@@ -236,7 +240,7 @@ settings.
 
 
 6.  Select the **ProductSet** as the data source into the vertical
-    gallery.
+    gallery and adjust the gallery as shown in image.
 
     ![](./media/image33.png)
 
@@ -269,7 +273,6 @@ settings.
     |-----------------|-------------|
     | ProdName        | Name        |
     | ProdPrice       | Price       |
-    | ProdDescription       | Description       |
 
     ![](./media/image37.png)
 
@@ -330,7 +333,7 @@ settings.
     ![](./media/image46.png)
 
 
-12. Click on the **Add to cart** button and go to formula bar, Select
+12. Click on the **CartButton** button and go to formula bar, Select
     **Onselect** and add **formula** as given below.
 
     +++Collect(Collection,{Name:ThisItem.Name,Price:ThisItem.Price,Describe:ThisItem.Description})+++
@@ -350,7 +353,6 @@ settings.
     |-------------|--------|
     | Text Colour | Blue   |
     | Fill Colour | White  |
-    | Text | Reload  |
 
     ![](./media/image49.1.png)
 
@@ -420,7 +422,7 @@ settings.
     ![](./media/image60.png)
 
 
-2.  Go to **Screen 2**. Click on (…) three dots and select **Rename**.
+2.  Go to **Screen 3**. Click on (…) three dots and select **Rename**.
     Rename the screen 2 as +++**Order Summary**+++.
 
     ![](./media/image61.png)
@@ -432,7 +434,7 @@ settings.
     ![](./media/image62.png)
 
 
-4.  Select **Order Screen**, go to **Insert** then search and select
+4.  Select **Order Summary Screen**, go to **Insert** then search and select
     +++**Vertical Gallery**+++ .
 
     ![](./media/image63.png)
@@ -478,7 +480,6 @@ settings.
     |-------------|------------|
     | Text colour | Blue       |
     | Fill Colour | White      |
-    | Text | Go to Cart      |
 
     ![](./media/image69.png)
 
@@ -503,7 +504,6 @@ settings.
     |-------------|-------|
     | Text Colour | Blue  |
     | Fill Colour | White |
-    | Text    | Back |
 
     ![](./media/image72.png)
 
@@ -650,7 +650,7 @@ settings.
     click on the **Add to cart** button. After that click on **Go to
     Cart** Button.
 
-    ![](./media/image94.png)
+![](./media/image94.png)
 
 
 3.  Enter the **Full Name Phone Number and Address** and then click on
