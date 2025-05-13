@@ -739,19 +739,18 @@ execution.
 
 **Exercise 7: Test the Flow**
 
-1.  From the Main block, right click and select Run from here.  
+1.  From the Main block, right-click on the **On block error** and select Run from here.  
 
     ![](./media/image99.png)
 
 
 2.  Observe the flow that does the following.
 
-    1. Opens the SAP Fiori URL in a new edge browser.
-    2. Logs into the system providing the username and password.
+    1. Opens the SAP Fiori URL in a new Edge browser.
+    2. Logs into the system, providing the username and password.
     3. Clicks on the Manage Products page.
-    4. Searches for a specific Supplier and gets the list of products
-        of the supplier.
-    5. Exports the data to an excel sheet.
+    4. Search for a specific supplier and get the list of the supplier's products.
+    5. Exports the data to an Excel sheet.
     6. Logs off from the system.
     7. Closes the browser.
 
