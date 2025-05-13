@@ -416,7 +416,7 @@ access the SAP related pages.
     ![](./media/image58.png)
 
 
-10. Then click on the **+ New step**, In the New step, select **Customer --> SAP-O-DATA** and then select
+10. Then click on the **+ New step**, In the New step, select **Custom --> SAP-O-DATA** and then select
     **Update product**.
 
     ![](./media/image59.png)
